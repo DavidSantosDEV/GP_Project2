@@ -11,10 +11,10 @@ public class PlayerAnimation : MonoBehaviour
         myAnimator = GetComponent<Animator>();
     }
 
-    public void UpdateMovementAnimation(float horizontal, float vertical)
+    public void UpdateMovementAnimation(float horizontal /*,float vertical*/)
     {
         myAnimator.SetFloat("Horizontal", horizontal);
-        myAnimator.SetFloat("Vertical", vertical);
+        //myAnimator.SetFloat("Vertical", vertical);
     }
 
     public void UpdateGrounded(bool grounded)

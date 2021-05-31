@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16330 MB
+OS: 'Windows 10 Enterprise; OS build 19041.450; Version 2004; 64bit' Language: 'en' Physical Memory: 16158 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,78 +11,2027 @@ C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/David/Documents/GitHub/Second Assignment-20210530/GP_Project
+C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64824
-Successfully changed project path to: C:/Users/David/Documents/GitHub/Second Assignment-20210530/GP_Project
-C:/Users/David/Documents/GitHub/Second Assignment-20210530/GP_Project
+50181
+Successfully changed project path to: C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project
+C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/David/Documents/GitHub/Second Assignment-20210530/GP_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: Radeon RX 560X Series (ID=0x67ff)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.6647
+    VRAM:     4075 MB
+    Driver:   27.20.1026.1
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001948 seconds.
+Registered in 0.001172 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
+- Completed reload, in  1.888 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001079 seconds.
+Registered in 0.000744 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 40.10 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  0.955 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.4 MB.
-System memory in use after: 95.5 MB.
+Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
-Total: 1.927800 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.590700 ms  DeleteObjects: 0.052800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 2.342700 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.152800 ms MarkObjects: 1.817100 ms  DeleteObjects: 0.060100 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes
   artifactKey: Guid(f2de33dc051b91a4abad545f5ffb5e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f2de33dc051b91a4abad545f5ffb5e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a249fdac7bc9b56765fcc9fbc3ee98') in 0.011404 seconds
-  Import took 0.015902 seconds .
+Start importing Assets/Scenes using Guid(f2de33dc051b91a4abad545f5ffb5e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe9006aa160f04a670b5575fefaca3c') in 0.007944 seconds
+  Import took 0.011010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/FirstProject.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstProject.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e148c8991a276e3bfb2349ccf934dd8') in 0.014117 seconds
+  Import took 0.017102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.307651 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(defb40bdf3bbcf94790cd85edf8bf4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(defb40bdf3bbcf94790cd85edf8bf4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f203c0f0944edfc181a3f0445d578b') in 0.007967 seconds
+  Import took 0.011419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533308 seconds.
+  path: Assets/Sprites/AnimatedSprites
+  artifactKey: Guid(6c29496362975064c87abcf18ae726fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites using Guid(6c29496362975064c87abcf18ae726fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b12480545dc5911973d23c5b139d616') in 0.007924 seconds
+  Import took 0.011305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010663 seconds.
+  path: Assets/Sprites/AnimatedSprites
+  artifactKey: Guid(6c29496362975064c87abcf18ae726fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites using Guid(6c29496362975064c87abcf18ae726fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b12480545dc5911973d23c5b139d616') in 0.002410 seconds
+  Import took 0.007289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.990966 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key
+  artifactKey: Guid(436dc6cf67bcf674e9d8c09e5f3545e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key using Guid(436dc6cf67bcf674e9d8c09e5f3545e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c0126591dbd0650ad8258399e13ea7') in 0.007901 seconds
+  Import took 0.011279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key
+  artifactKey: Guid(436dc6cf67bcf674e9d8c09e5f3545e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key using Guid(436dc6cf67bcf674e9d8c09e5f3545e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c0126591dbd0650ad8258399e13ea7') in 0.006789 seconds
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070479 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0000.png
+  artifactKey: Guid(c9e4e8dbc54fdcf44b93458515f686f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0000.png using Guid(c9e4e8dbc54fdcf44b93458515f686f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174ee911c2cb644cfbb1499e101e6d1') in 0.098355 seconds
+  Import took 0.103662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0020.png
+  artifactKey: Guid(5f6c7442f38a84045b124b800d46646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0020.png using Guid(5f6c7442f38a84045b124b800d46646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e925ba8ca092248adfc61ed3ab1c4a4') in 0.013328 seconds
+  Import took 0.016346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0034.png
+  artifactKey: Guid(9e240bb7d20d3fb4385b3631e599184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0034.png using Guid(9e240bb7d20d3fb4385b3631e599184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a967883c0c4aa0de0deb8f1114c0713') in 0.029830 seconds
+  Import took 0.035770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0006.png
+  artifactKey: Guid(0f165183df5e5844692e279bccf615f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0006.png using Guid(0f165183df5e5844692e279bccf615f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbad393fa78e4b1333195b1c4b08f2a') in 0.014694 seconds
+  Import took 0.018771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0046.png
+  artifactKey: Guid(c59be3b9016d3da4a8ba0b63885440a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0046.png using Guid(c59be3b9016d3da4a8ba0b63885440a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aed7e30e5877fd5bcc9804d7d0cfade') in 0.018004 seconds
+  Import took 0.021267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0050.png
+  artifactKey: Guid(9df9d7b046cc4b942bffbcda015302f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0050.png using Guid(9df9d7b046cc4b942bffbcda015302f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cb27da038e1e52ff36cbb86dca2150') in 0.032232 seconds
+  Import took 0.035554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0054.png
+  artifactKey: Guid(f985c2064ccd0ca45bfda61d0ae709fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0054.png using Guid(f985c2064ccd0ca45bfda61d0ae709fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bbda7ec2940311e7078498f730f71a') in 0.010743 seconds
+  Import took 0.018196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0014.png
+  artifactKey: Guid(c1c1bc32e4deaa7419c000bd807a12a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0014.png using Guid(c1c1bc32e4deaa7419c000bd807a12a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c2bb37cecbf3b1837c1e9c3872b259') in 0.024305 seconds
+  Import took 0.027675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0012.png
+  artifactKey: Guid(2cb8bef62b89ae44d90d9d7a9db0436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0012.png using Guid(2cb8bef62b89ae44d90d9d7a9db0436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19283f6faff00106ac9bdfad695304e6') in 0.028081 seconds
+  Import took 0.032459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0024.png
+  artifactKey: Guid(931fae7681db6724282917c45b7b512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0024.png using Guid(931fae7681db6724282917c45b7b512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883288b2820df9f8dae8eb75ddfc476a') in 0.024734 seconds
+  Import took 0.029348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0002.png
+  artifactKey: Guid(a769791434b571b48a9561eaea74b1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0002.png using Guid(a769791434b571b48a9561eaea74b1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c0ddf6fe36e8bb0388267aa7ac3d8c') in 0.024015 seconds
+  Import took 0.027679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0016.png
+  artifactKey: Guid(e07deca6e96ad1145bf3bf72b6c14737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0016.png using Guid(e07deca6e96ad1145bf3bf72b6c14737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a922bab631c28769c8c49e48b1c1b86') in 0.033590 seconds
+  Import took 0.037169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0026.png
+  artifactKey: Guid(12b6db611881d0b489b93d5f6f976213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0026.png using Guid(12b6db611881d0b489b93d5f6f976213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ac7eb5bde6de2d66e574b0b75cf40f') in 0.028856 seconds
+  Import took 0.034583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0036.png
+  artifactKey: Guid(f6e13da1f46f3954ba9899a641197a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0036.png using Guid(f6e13da1f46f3954ba9899a641197a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4676bed658d1854c13d06b2d92d9f2a') in 0.026389 seconds
+  Import took 0.036675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0030.png
+  artifactKey: Guid(64cc4993a83ff9345ace7e3c1a695872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0030.png using Guid(64cc4993a83ff9345ace7e3c1a695872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff412b0b801cc1e8af565de684078138') in 0.025012 seconds
+  Import took 0.031315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0042.png
+  artifactKey: Guid(a5cbe8660242822428df9d4ba24c678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0042.png using Guid(a5cbe8660242822428df9d4ba24c678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b4523ed272db8732b4ce0d85295916') in 0.034451 seconds
+  Import took 0.040074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0058.png
+  artifactKey: Guid(f1ef16a37d08fbe49a008f7b83982337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0058.png using Guid(f1ef16a37d08fbe49a008f7b83982337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13a219f37740bf9993c72eca952951c') in 0.037590 seconds
+  Import took 0.047550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0048.png
+  artifactKey: Guid(e8e9c9e0539a17347b8ff98ffe0c189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0048.png using Guid(e8e9c9e0539a17347b8ff98ffe0c189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0265e2730398f2c28d0f0025031761f3') in 0.027251 seconds
+  Import took 0.039493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0004.png
+  artifactKey: Guid(a45a7faaab8b7674181af2df10fdfe64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0004.png using Guid(a45a7faaab8b7674181af2df10fdfe64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b3a003036864b0d85361a489c33ad7') in 0.028633 seconds
+  Import took 0.034656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0040.png
+  artifactKey: Guid(80f9399bbbb5e5d4dabf59ca740e2f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0040.png using Guid(80f9399bbbb5e5d4dabf59ca740e2f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd9f6a10e8c9e846a196f708b444fc5') in 0.037989 seconds
+  Import took 0.046642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0052.png
+  artifactKey: Guid(c80b6fe7ca4beff4ba9b2cca8425334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0052.png using Guid(c80b6fe7ca4beff4ba9b2cca8425334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c885ba28383f7deddad5d02022c1685') in 0.033105 seconds
+  Import took 0.037325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0044.png
+  artifactKey: Guid(c9e1859e69111464da49ab7fc014527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0044.png using Guid(c9e1859e69111464da49ab7fc014527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfa82fc723ea1d02330bb17e59cbd15') in 0.047070 seconds
+  Import took 0.053654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0028.png
+  artifactKey: Guid(fb33c39552f4ef8458af63c6752156d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0028.png using Guid(fb33c39552f4ef8458af63c6752156d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c707402b528cdde5efd10e31189783') in 0.019636 seconds
+  Import took 0.026838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0022.png
+  artifactKey: Guid(fb3043ab0b4a443489187d32c3b21059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0022.png using Guid(fb3043ab0b4a443489187d32c3b21059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb1bc6f47df1a858ba446bbad9faba4') in 0.021693 seconds
+  Import took 0.027538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0018.png
+  artifactKey: Guid(a1c9fbaf3fa04ce4e8a750d540e8abf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0018.png using Guid(a1c9fbaf3fa04ce4e8a750d540e8abf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a237d518c7b6e25822b9adaa41e876') in 0.026293 seconds
+  Import took 0.033055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0010.png
+  artifactKey: Guid(273105d8a0fbe314c948471fea09e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0010.png using Guid(273105d8a0fbe314c948471fea09e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec6aadb22017906a5a82f252143cbff') in 0.014640 seconds
+  Import took 0.020278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0032.png
+  artifactKey: Guid(e1736b3e9915165469df37b24a209f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0032.png using Guid(e1736b3e9915165469df37b24a209f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038b3ab4d75a9eb5ede64601bf202ea3') in 0.020135 seconds
+  Import took 0.024059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0038.png
+  artifactKey: Guid(a7799cad731d5db4bb28485c4191a055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0038.png using Guid(a7799cad731d5db4bb28485c4191a055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5f602955f7ae43120a90a6480858d8') in 0.025455 seconds
+  Import took 0.032047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0008.png
+  artifactKey: Guid(7009c3fdce34ce64e91bd7f0b74b5bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0008.png using Guid(7009c3fdce34ce64e91bd7f0b74b5bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc91c71560ae38f600e7d5d69611a2c') in 0.022140 seconds
+  Import took 0.031382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/AnimatedSprites/Key/KeySpin0056.png
+  artifactKey: Guid(c40ff0c0a7ac13843966c8c02e58a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Key/KeySpin0056.png using Guid(c40ff0c0a7ac13843966c8c02e58a4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e758913b769ca423d9b312a2ec85127b') in 0.014096 seconds
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639186 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter
+  artifactKey: Guid(a957c9885f167724ea6984435ce32002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter using Guid(a957c9885f167724ea6984435ce32002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4affa752c14583abdb576959a3daab') in 0.005436 seconds
+  Import took 0.009047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003596 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter
+  artifactKey: Guid(a957c9885f167724ea6984435ce32002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter using Guid(a957c9885f167724ea6984435ce32002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4affa752c14583abdb576959a3daab') in 0.003451 seconds
+  Import took 0.009553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080774 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_00.png
+  artifactKey: Guid(1d1d43dbe1c8e194aafaa6eb4157ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_00.png using Guid(1d1d43dbe1c8e194aafaa6eb4157ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3136a78614973df0b734ea591339f3c8') in 0.018404 seconds
+  Import took 0.022002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_03.png
+  artifactKey: Guid(68f99afd5671d19419cb5144731134c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_03.png using Guid(68f99afd5671d19419cb5144731134c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc101f962981c20cd8218e13f36775c') in 0.028007 seconds
+  Import took 0.037998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_11.png
+  artifactKey: Guid(870e9efdfccce9c47a0188f667eac92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_11.png using Guid(870e9efdfccce9c47a0188f667eac92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de0512ee18c1691cea44683168906c8') in 0.021800 seconds
+  Import took 0.026037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_10.png
+  artifactKey: Guid(627c0ea1c3bef7d49adce7c43c8e3b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_10.png using Guid(627c0ea1c3bef7d49adce7c43c8e3b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f3ac3b524dd5ac6d24df28e3f36ad3') in 0.021827 seconds
+  Import took 0.026060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_06.png
+  artifactKey: Guid(792ef27920f7abb4889e40ab78a79c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_06.png using Guid(792ef27920f7abb4889e40ab78a79c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6094d1013d3cf4f24fb10560d30ea744') in 0.026059 seconds
+  Import took 0.030621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_05.png
+  artifactKey: Guid(9885e694f08f7a741b0e4ae774056de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_05.png using Guid(9885e694f08f7a741b0e4ae774056de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46aefad43e8f8147bab2d62457ec59d') in 0.030233 seconds
+  Import took 0.035243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_12.png
+  artifactKey: Guid(619fd92f29058504db2a4ac974c9c795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_12.png using Guid(619fd92f29058504db2a4ac974c9c795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be279514f3769fdbe03152b3b52bd74') in 0.021341 seconds
+  Import took 0.026341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_02.png
+  artifactKey: Guid(4ee1ed124bd7ec4488bc5a5c1ce6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_02.png using Guid(4ee1ed124bd7ec4488bc5a5c1ce6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99a42b86b68b998c08c3d95e99c6b32') in 0.021642 seconds
+  Import took 0.028796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_08.png
+  artifactKey: Guid(d17cf23af7174134fb9cb4037405f3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_08.png using Guid(d17cf23af7174134fb9cb4037405f3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ca499ee91b561f53df5c74c1490051') in 0.025721 seconds
+  Import took 0.031694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_04.png
+  artifactKey: Guid(3fa2301e21298904e890fabf2436610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_04.png using Guid(3fa2301e21298904e890fabf2436610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4831b618d99707c158794ba6ef751bc') in 0.021130 seconds
+  Import took 0.027373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_01.png
+  artifactKey: Guid(95c96f19033577b4689b2328d2625f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_01.png using Guid(95c96f19033577b4689b2328d2625f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf90de2d206d0d73006792aa7529180f') in 0.023366 seconds
+  Import took 0.029965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_14.png
+  artifactKey: Guid(a58615db21246814f9b5838eeb0a0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_14.png using Guid(a58615db21246814f9b5838eeb0a0d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0201effe158ca7ea3adfba915ddb85e8') in 0.017123 seconds
+  Import took 0.023864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_07.png
+  artifactKey: Guid(445f2ac24dd3f4c40ab84884e7cda587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_07.png using Guid(445f2ac24dd3f4c40ab84884e7cda587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b835866262228bc42b64293df922116') in 0.021414 seconds
+  Import took 0.027097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_09.png
+  artifactKey: Guid(ce43e7475cbe59c4aaaf2c2e293465f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_09.png using Guid(ce43e7475cbe59c4aaaf2c2e293465f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60363339acb84f2c085f1d2b3b68650a') in 0.021926 seconds
+  Import took 0.028489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_13.png
+  artifactKey: Guid(fe93732880fe93b4a9109b57cda2b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Teleporter/Teleporter_13.png using Guid(fe93732880fe93b4a9109b57cda2b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff835050888ab1e9e527e9f3c866aa4d') in 0.023754 seconds
+  Import took 0.028088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.071216 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies
+  artifactKey: Guid(23166c99cb49c8c4f86a087dda03b8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies using Guid(23166c99cb49c8c4f86a087dda03b8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8044bfb3991c34f7b5877797acda71') in 0.005235 seconds
+  Import took 0.008754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001608 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies
+  artifactKey: Guid(23166c99cb49c8c4f86a087dda03b8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies using Guid(23166c99cb49c8c4f86a087dda03b8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8044bfb3991c34f7b5877797acda71') in 0.004764 seconds
+  Import took 0.011386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.709297 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper
+  artifactKey: Guid(04a0c69711baef849911b3018ecc2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper using Guid(04a0c69711baef849911b3018ecc2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a50e5fa6c637b1c9bae3790a6fe597b') in 0.005098 seconds
+  Import took 0.008667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003335 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper
+  artifactKey: Guid(04a0c69711baef849911b3018ecc2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper using Guid(04a0c69711baef849911b3018ecc2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a50e5fa6c637b1c9bae3790a6fe597b') in 0.004580 seconds
+  Import took 0.011547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.216090 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner
+  artifactKey: Guid(024c4bae3ea60c24bbe1c33b1355d9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner using Guid(024c4bae3ea60c24bbe1c33b1355d9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58087b904d373591ccdbf65294af87') in 0.007664 seconds
+  Import took 0.011078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner
+  artifactKey: Guid(024c4bae3ea60c24bbe1c33b1355d9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner using Guid(024c4bae3ea60c24bbe1c33b1355d9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58087b904d373591ccdbf65294af87') in 0.002724 seconds
+  Import took 0.009372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771589 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack
+  artifactKey: Guid(f57f4b75ee1101e44ace410e5e21cb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack using Guid(f57f4b75ee1101e44ace410e5e21cb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ded1add9f1bb58fd1db2b99300198') in 0.006482 seconds
+  Import took 0.010022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002393 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack
+  artifactKey: Guid(f57f4b75ee1101e44ace410e5e21cb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack using Guid(f57f4b75ee1101e44ace410e5e21cb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ded1add9f1bb58fd1db2b99300198') in 0.004512 seconds
+  Import took 0.011867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070728 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00003.png
+  artifactKey: Guid(70ade8df6245d5f438b014d2c3abb76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00003.png using Guid(70ade8df6245d5f438b014d2c3abb76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eef1df5346dfa6db9f88b07b90d2bf2') in 0.017752 seconds
+  Import took 0.023925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00020.png
+  artifactKey: Guid(d344dab76620aa34db578e7cb1ca590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00020.png using Guid(d344dab76620aa34db578e7cb1ca590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889c6eb7fb10477cb2eaf7635886559e') in 0.011349 seconds
+  Import took 0.014533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00024.png
+  artifactKey: Guid(b0c353e310bf41443bd9460f91e7238a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00024.png using Guid(b0c353e310bf41443bd9460f91e7238a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788dbad41c562b53c5750c35d379d0a1') in 0.036648 seconds
+  Import took 0.039848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00030.png
+  artifactKey: Guid(abb7779821f216a43a0874977a7232fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00030.png using Guid(abb7779821f216a43a0874977a7232fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872fcea929a54722bfa4c1ddfe7a8f4c') in 0.017031 seconds
+  Import took 0.020249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00026.png
+  artifactKey: Guid(9f3691dc5b5ea1c44a19f800ffe56f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00026.png using Guid(9f3691dc5b5ea1c44a19f800ffe56f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a60c8b40d4308cd3bde739ccca2bde4') in 0.015892 seconds
+  Import took 0.019944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00008.png
+  artifactKey: Guid(a71314bcc22d30b4eaad8b7c1e932c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00008.png using Guid(a71314bcc22d30b4eaad8b7c1e932c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c22b3b6b6230e1bc10a806c95b25416') in 0.025282 seconds
+  Import took 0.029188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00012.png
+  artifactKey: Guid(12e4f1b7401279843aa7c623a441c583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00012.png using Guid(12e4f1b7401279843aa7c623a441c583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e59a93b7b43228e971132e0a8108768') in 0.016535 seconds
+  Import took 0.022306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000911 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00016.png
+  artifactKey: Guid(8f43b842f37ff4b4481b5332910ff5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00016.png using Guid(8f43b842f37ff4b4481b5332910ff5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab7d5a8b776ae07c389b92ae8f3784c') in 0.017808 seconds
+  Import took 0.024648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00013.png
+  artifactKey: Guid(d6723e7cd15981342aff65debc8bd8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00013.png using Guid(d6723e7cd15981342aff65debc8bd8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7e4df37785813a587f5b040120092') in 0.019045 seconds
+  Import took 0.025636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00015.png
+  artifactKey: Guid(16edec63852b01c4e911886a4cbb73f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00015.png using Guid(16edec63852b01c4e911886a4cbb73f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5c736c7256180b0a1b21e8884d3192') in 0.032379 seconds
+  Import took 0.035934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00004.png
+  artifactKey: Guid(8035ac515fdc9d5429e614c7626bac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00004.png using Guid(8035ac515fdc9d5429e614c7626bac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab2aed04e637996e333771497e5a3bd') in 0.015869 seconds
+  Import took 0.019609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00025.png
+  artifactKey: Guid(367b7e6a18440b742b7905f0da18879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00025.png using Guid(367b7e6a18440b742b7905f0da18879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ae84521c1029306a223338fb858fc') in 0.017503 seconds
+  Import took 0.021138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00005.png
+  artifactKey: Guid(1179c234d20c9c94ab939dc815279c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00005.png using Guid(1179c234d20c9c94ab939dc815279c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63f95f96fb29d906a6c12c15891a43b') in 0.030513 seconds
+  Import took 0.038650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00011.png
+  artifactKey: Guid(3a935205338b6ed48a1aefa74be40649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00011.png using Guid(3a935205338b6ed48a1aefa74be40649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafbdf74692fd8284151fb84d6636f84') in 0.022622 seconds
+  Import took 0.028944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00010.png
+  artifactKey: Guid(31ede2d282c83e64a9712b0ba0529b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00010.png using Guid(31ede2d282c83e64a9712b0ba0529b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c1a334952d369c192da22f26def929') in 0.014416 seconds
+  Import took 0.021945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00007.png
+  artifactKey: Guid(14a32e663504cdf45a80bf421b50d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00007.png using Guid(14a32e663504cdf45a80bf421b50d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1397f1bb1bba9ea89312d19b726d9c1e') in 0.020838 seconds
+  Import took 0.024375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00009.png
+  artifactKey: Guid(4d820f5653f849b48851cb116c989a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00009.png using Guid(4d820f5653f849b48851cb116c989a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f320d3b8f5510859e3e105cf580b35ae') in 0.030116 seconds
+  Import took 0.040007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00014.png
+  artifactKey: Guid(caa676c84c68017408a32b8465030c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00014.png using Guid(caa676c84c68017408a32b8465030c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb7610a3103eaad897e32c27db8adf1') in 0.018512 seconds
+  Import took 0.021856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00018.png
+  artifactKey: Guid(d850b5511019e5d469ad9a6990584088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00018.png using Guid(d850b5511019e5d469ad9a6990584088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c12b15fc4dbec4869da881aaea9e093') in 0.016831 seconds
+  Import took 0.021549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00006.png
+  artifactKey: Guid(37e6dfffb12947741b8488ecb431c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00006.png using Guid(37e6dfffb12947741b8488ecb431c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7570e195bd88e497f5765af32bc1cac2') in 0.022145 seconds
+  Import took 0.027362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00031.png
+  artifactKey: Guid(bca1374fe4c36824b8ee0bc0d9f6a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00031.png using Guid(bca1374fe4c36824b8ee0bc0d9f6a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46292136146e13221d5eaac7c19b7aa') in 0.019909 seconds
+  Import took 0.026816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00019.png
+  artifactKey: Guid(8b9a7b825109e6a47acdd3c04db31fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00019.png using Guid(8b9a7b825109e6a47acdd3c04db31fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f832a74eb61c3ebae20d19cb36b6d515') in 0.015355 seconds
+  Import took 0.020014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00022.png
+  artifactKey: Guid(0543e7ee1517c9b4890ad34431273dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00022.png using Guid(0543e7ee1517c9b4890ad34431273dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71abd9fb9e1eb11fbf60ae16b27a67f') in 0.017517 seconds
+  Import took 0.021397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00017.png
+  artifactKey: Guid(b9d60b293ac095a4499408bd0cbd1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00017.png using Guid(b9d60b293ac095a4499408bd0cbd1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849ae9dbb24309aa98f1cd3ca8d21819') in 0.026482 seconds
+  Import took 0.030428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00028.png
+  artifactKey: Guid(d613fcb4d981bc14fb8a98decb07e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00028.png using Guid(d613fcb4d981bc14fb8a98decb07e333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee988d8272127d65325c268d78cf372a') in 0.031051 seconds
+  Import took 0.034317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00032.png
+  artifactKey: Guid(fcd740da271ff6f4caab790f0ffb74eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00032.png using Guid(fcd740da271ff6f4caab790f0ffb74eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de64592094a663f7d7735129f9461b17') in 0.029223 seconds
+  Import took 0.033871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00029.png
+  artifactKey: Guid(23d129abb0e5d2340963e853babb237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00029.png using Guid(23d129abb0e5d2340963e853babb237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bf7e8470c43b869a954241cf204f16') in 0.029177 seconds
+  Import took 0.033018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00023.png
+  artifactKey: Guid(fa1f31d5b9c64094aa7d8d735f1e310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00023.png using Guid(fa1f31d5b9c64094aa7d8d735f1e310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c910abc827b7717dcc4745080b232') in 0.026155 seconds
+  Import took 0.029507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00021.png
+  artifactKey: Guid(6c274ebeb720ee340af80c206a054050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00021.png using Guid(6c274ebeb720ee340af80c206a054050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161b6107410380d028b871104b396f76') in 0.017917 seconds
+  Import took 0.021264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00027.png
+  artifactKey: Guid(64f5854916b55ad4e80867fdc2fd00b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/BeamAttack/Gunner_BEAMATTACK_2s_00027.png using Guid(64f5854916b55ad4e80867fdc2fd00b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03566d6fb169cf63505244b264e95d8') in 0.021144 seconds
+  Import took 0.024362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.598486 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle
+  artifactKey: Guid(57f7f5d7ab3a01c428f81abde037fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle using Guid(57f7f5d7ab3a01c428f81abde037fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c71ecd8310e474bc4779f56746b20dc') in 0.005227 seconds
+  Import took 0.008366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003898 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle
+  artifactKey: Guid(57f7f5d7ab3a01c428f81abde037fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle using Guid(57f7f5d7ab3a01c428f81abde037fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c71ecd8310e474bc4779f56746b20dc') in 0.003473 seconds
+  Import took 0.012426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069693 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00a1863c96bee60bf997c6f73e8f175') in 0.016433 seconds
+  Import took 0.021174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed27f9581b3bea8583ee18bcb6cb953') in 0.016480 seconds
+  Import took 0.020349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd653e45c04d5f4b00795bd9187882eec') in 0.022367 seconds
+  Import took 0.025601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df68142161f4da2ff13db35e3dcb33a') in 0.012545 seconds
+  Import took 0.019990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06f0a83241f645a9648e0e5e072a8be') in 0.023153 seconds
+  Import took 0.026207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249306fcfd7cdf2a47419c71e6d9a862') in 0.027616 seconds
+  Import took 0.031081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0992184c10feb2849a6a70297876c333') in 0.016725 seconds
+  Import took 0.020069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c55635cb86a910d91c488669f76152') in 0.022743 seconds
+  Import took 0.026138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d0a51e84348c6562e63ab42e2a1368') in 0.017834 seconds
+  Import took 0.022469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b809a7f232afcd9679d4c32e3d8dc06') in 0.029227 seconds
+  Import took 0.032898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087edce1f9fd64d58497039a94b4bd3b') in 0.018824 seconds
+  Import took 0.023685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9105a105ba2aff3500fcd3cd04544f4e') in 0.017495 seconds
+  Import took 0.021242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947fcf06e597ce3036e7b1baaeb1d939') in 0.017590 seconds
+  Import took 0.021238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fb348e34668bb31cdc3c974787dbea') in 0.029165 seconds
+  Import took 0.032608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4679fc88ff6758363da8868db0c2f163') in 0.017850 seconds
+  Import took 0.022875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8c9efec7e8bd51b89229e836336ba9') in 0.017495 seconds
+  Import took 0.022096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d515426fb32df6c51045d8e3a1c5aad') in 0.018070 seconds
+  Import took 0.021427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f70be4d90acdda6e005268997427f1') in 0.028212 seconds
+  Import took 0.032559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c478d724d0fa44f97bdb26f14ea27a') in 0.030431 seconds
+  Import took 0.036508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fa504a72dca77342705935a4772dd6') in 0.033711 seconds
+  Import took 0.040559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.284809 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f683558f7a4f8780015732ebcdeba05f') in 0.031671 seconds
+  Import took 0.038926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e61eb581d9e7c36bb075a2e70537904') in 0.023396 seconds
+  Import took 0.027669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4fa39b2cc12b6ba18bfcd1410a2f0') in 0.015283 seconds
+  Import took 0.018931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac864c54210cbbb70fafd4126734d8f') in 0.029709 seconds
+  Import took 0.034657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb048b672d5b15e2b109963d8a06d0') in 0.030922 seconds
+  Import took 0.035561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8179eec030345422ecd649aa33ac4820') in 0.045487 seconds
+  Import took 0.055407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001403 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24a4f97f6144d76620542911de8a607') in 0.048606 seconds
+  Import took 0.065051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5024665ae3e7c11b3c2736b977ffa7aa') in 0.046228 seconds
+  Import took 0.064968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea15b748c56309c9335b037f362d4e0c') in 0.022825 seconds
+  Import took 0.028382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6e4063ca9e56bab4b4a7da98a87081') in 0.022895 seconds
+  Import took 0.031424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9087759b168c6a93bb51783c7ed6488b') in 0.030126 seconds
+  Import took 0.033664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718e3db57e87b65db7d1ee5f4fff4343') in 0.025276 seconds
+  Import took 0.031026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ff704ce0f6f9f58f14d3a3f9878e3e') in 0.026009 seconds
+  Import took 0.030007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63108feda46a9780720c20342b33dce6') in 0.017944 seconds
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0658988949f2ba867a439efef0cc4f00') in 0.019465 seconds
+  Import took 0.028667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9f1fe00cdd844197ee05494629938e') in 0.031476 seconds
+  Import took 0.036126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc72a887162f4e3e1966bd1ff2d5d04') in 0.016198 seconds
+  Import took 0.025609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c794753c72569d2857e4a49e0ae4593c') in 0.026698 seconds
+  Import took 0.033724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2dfd01818c10a5570278aab52fe8dc') in 0.012930 seconds
+  Import took 0.018447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f02bc7fca7bf6b889bc7b3ce30ff50') in 0.031884 seconds
+  Import took 0.035601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.158803 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25283b41da1e656f3960ba264cd3370') in 0.026917 seconds
+  Import took 0.031230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b571dff9c30736ce7237229e354134') in 0.031788 seconds
+  Import took 0.036053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c17d42b675fbd8df66fb3cf6c876f1f') in 0.025409 seconds
+  Import took 0.029292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb78edd95ae3f04e981d2df78d22a87f') in 0.021093 seconds
+  Import took 0.024549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd0f19c5660f1d81a43694bb048461') in 0.021286 seconds
+  Import took 0.028364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356da6e2cdffb47a92e1232774fa304a') in 0.031893 seconds
+  Import took 0.036646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3119e2902f49c86b792be6cebb37cd') in 0.013954 seconds
+  Import took 0.018376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000971 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8472dce101c532d8590011bfc1aa40bb') in 0.038021 seconds
+  Import took 0.051016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6356253246dea9c7d84024ac01813ede') in 0.035668 seconds
+  Import took 0.049299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9694904c0ee6f6621ed1bfe10f464d') in 0.054762 seconds
+  Import took 0.060056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a1b071f8f427cc20cf0dae1cdd20c9') in 0.047207 seconds
+  Import took 0.063199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43915f71a826dd05f42183f97e7e5524') in 0.038182 seconds
+  Import took 0.048929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97acffbb20750086dc10b1d086248944') in 0.024263 seconds
+  Import took 0.028589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf11f8e8fe2649b9580f68d7ddf04d') in 0.030706 seconds
+  Import took 0.034275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2439e0599439369dd665db6f1020feb9') in 0.030166 seconds
+  Import took 0.033361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff30e350921bc0321db83f783d149c23') in 0.019943 seconds
+  Import took 0.024217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a078207b5b72891884fcadf72749bc65') in 0.019822 seconds
+  Import took 0.025231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a3a8aa47fc5387f03425123d9827b2') in 0.015424 seconds
+  Import took 0.018658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b7530c974f97327405e81f034419df') in 0.021332 seconds
+  Import took 0.026482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208477114273510c6ab05450791f7909') in 0.013791 seconds
+  Import took 0.017161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.397486 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6c1cfbbcc09f8a3b0769d0eb82b493') in 0.014505 seconds
+  Import took 0.024899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d9d9a0a0301f3ee3b114f513fa216') in 0.030679 seconds
+  Import took 0.045327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa4a7b2680746584ed978956e046827') in 0.039934 seconds
+  Import took 0.053500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6c1cfbbcc09f8a3b0769d0eb82b493') in 0.026631 seconds
+  Import took 0.046804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50b0674c3d1784d661307442af4a1af') in 0.042203 seconds
+  Import took 0.056287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001183 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b0c75967d8220178b7992993d7054b') in 0.042436 seconds
+  Import took 0.054659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3446ecaa8384a4b9eeb5f120e9c56071') in 0.019715 seconds
+  Import took 0.023365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a84b6e866127860093720bbfc3820a') in 0.014459 seconds
+  Import took 0.024107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c9e46f70e06e10778418d9f11496fe') in 0.016714 seconds
+  Import took 0.020919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74b1391dd679ad729ed7ecee9686ba1') in 0.016310 seconds
+  Import took 0.019794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7256d2e61ba982c8f520bfa288c5e44f') in 0.015974 seconds
+  Import took 0.024168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b55a939a5caedbccc37ea5f191cb71') in 0.017169 seconds
+  Import took 0.020750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6f2623296684df6042728cf2a393c3') in 0.014489 seconds
+  Import took 0.017679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6aa94c29063e8a6dcc6009dab8b241') in 0.015417 seconds
+  Import took 0.018782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c7041964cbafb9ab08907d8b27549') in 0.016661 seconds
+  Import took 0.025456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aded473587a34d397c67f49d8701b7f2') in 0.016446 seconds
+  Import took 0.020566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bb7423fd436b2c3a5c1d637728c968') in 0.015915 seconds
+  Import took 0.019335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67650b59bb53911347ce8c915ccbeb22') in 0.015392 seconds
+  Import took 0.026169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb5c1a6bbc01e5fb5b26c78f58d56f6') in 0.020465 seconds
+  Import took 0.025099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd79dab39d0a5731c144f7b224ce8fe') in 0.008778 seconds
+  Import took 0.016277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f096c3eaf9bb7ea1f3d86827b7186c49') in 0.008998 seconds
+  Import took 0.014539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.145444 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4aaac379c6e8d923f2cc0187c9d1ae2') in 0.029034 seconds
+  Import took 0.032555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.834133 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20cb26496bb6ddeda8d5ebb5e385357') in 0.028905 seconds
+  Import took 0.032657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.598352 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab63d03bfb6975461cb196ed2d3af5a8') in 0.022892 seconds
+  Import took 0.027003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003424 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab63d03bfb6975461cb196ed2d3af5a8') in 0.024086 seconds
+  Import took 0.030381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.607576 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19c59b72b62cdfab8cdd5d796496d93') in 0.029842 seconds
+  Import took 0.033834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.561140 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c3071a3cd50c82b2323a9cab027cdc') in 0.027511 seconds
+  Import took 0.031214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.888694 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f7830205ce773d022ad94e0b203bea') in 0.028973 seconds
+  Import took 0.032943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.828037 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcb92a72d3c05ff7ce6a62d0200ef6f') in 0.027933 seconds
+  Import took 0.031758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.108553 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6fd8dc28aec70902554fb1c702b77a') in 0.034753 seconds
+  Import took 0.038727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.692655 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bacaabe414471468d714637ec4cdc35') in 0.026672 seconds
+  Import took 0.030139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.580678 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861451af38ce5d4a1834eb8b7923ed6c') in 0.029008 seconds
+  Import took 0.035414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.848279 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d382e0f46c78ab3bc8b8db43d5217cc') in 0.027615 seconds
+  Import took 0.031735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.398581 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2272e4ba7a37859c2bf6bddcfe71406e') in 0.028181 seconds
+  Import took 0.034417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.214358 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40838615ae06ed0083b59973a08826be') in 0.028601 seconds
+  Import took 0.032191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.035821 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9e4aeec879037897fef46ce99ee99c') in 0.028517 seconds
+  Import took 0.033326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.288836 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(083a56a155e2eb64bbf0f775f231bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(083a56a155e2eb64bbf0f775f231bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b332f4c18140b84aba2541071e35a211') in 0.005785 seconds
+  Import took 0.009342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003475 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(083a56a155e2eb64bbf0f775f231bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(083a56a155e2eb64bbf0f775f231bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b332f4c18140b84aba2541071e35a211') in 0.004648 seconds
+  Import took 0.014072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617604 seconds.
+  path: Assets/Animations/Player
+  artifactKey: Guid(d4d07664d025ab14bbdc3567ad05a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player using Guid(d4d07664d025ab14bbdc3567ad05a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fece97199b56d855b18cd65335e04715') in 0.005768 seconds
+  Import took 0.009436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003069 seconds.
+  path: Assets/Animations/Player
+  artifactKey: Guid(d4d07664d025ab14bbdc3567ad05a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player using Guid(d4d07664d025ab14bbdc3567ad05a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fece97199b56d855b18cd65335e04715') in 0.004673 seconds
+  Import took 0.010289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.249150 seconds.
+  path: Assets/Animations/Player/Gunner_IDLE_2s_00000.controller
+  artifactKey: Guid(dd4d6da7444c1fd43ae73798ce39bd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Gunner_IDLE_2s_00000.controller using Guid(dd4d6da7444c1fd43ae73798ce39bd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f5313018cc21e960872799d81a87e8') in 0.006797 seconds
+  Import took 0.010496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002270 seconds.
+  path: Assets/Animations/Player/Gunner_IDLE_2s_00000.controller
+  artifactKey: Guid(dd4d6da7444c1fd43ae73798ce39bd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Gunner_IDLE_2s_00000.controller using Guid(dd4d6da7444c1fd43ae73798ce39bd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f5313018cc21e960872799d81a87e8') in 0.009207 seconds
+  Import took 0.017439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.650181 seconds.
+  path: Assets/Animations/Player/Player_Idle.anim
+  artifactKey: Guid(66ec4f174f021a94fb7b3b0b93ea05d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Idle.anim using Guid(66ec4f174f021a94fb7b3b0b93ea05d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f822675f7d7d383e80ed2604fbe478') in 0.009919 seconds
+  Import took 0.013285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/Animations/Player/Player_Idle.anim
+  artifactKey: Guid(66ec4f174f021a94fb7b3b0b93ea05d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Idle.anim using Guid(66ec4f174f021a94fb7b3b0b93ea05d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f822675f7d7d383e80ed2604fbe478') in 0.002383 seconds
+  Import took 0.006379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.888185 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0bd7197ab52dd47f48e1529e99f218') in 0.029804 seconds
+  Import took 0.033341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.262562 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62b2060abbd1b5a3818cfa6e1d54ac7') in 0.028485 seconds
+  Import took 0.031948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.114733 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466de23bfefb0e24e5ba265ecd0a92a8') in 0.027026 seconds
+  Import took 0.030657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.570448 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbb359b9b9fb572a22ca274d2872697') in 0.025861 seconds
+  Import took 0.029287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025047 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbb359b9b9fb572a22ca274d2872697') in 0.024253 seconds
+  Import took 0.028087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.541133 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6958c7b89b2a20cc38e38a0cb1905261') in 0.023146 seconds
+  Import took 0.027021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.999964 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f5d0b4fb7ac1cbdcf0a47f05409846') in 0.029640 seconds
+  Import took 0.033526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002127 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f5d0b4fb7ac1cbdcf0a47f05409846') in 0.024135 seconds
+  Import took 0.028959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.715271 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157bb680dd9ed6a8bd860c05f6dce4af') in 0.024781 seconds
+  Import took 0.029231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3e98fdb35f0a9f27677cc2a820be62') in 0.017254 seconds
+  Import took 0.021500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934409c292806093dc4d629d10d2af9b') in 0.022760 seconds
+  Import took 0.030153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3ff75110cffa065c9e935d97acc83c') in 0.051976 seconds
+  Import took 0.061908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb96231972b569ad06e162e50c9ecbc1') in 0.037396 seconds
+  Import took 0.052750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89a5d99ea71957b63a3759b7929cdf5') in 0.037316 seconds
+  Import took 0.044712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0895c61df5b70eaed8cb306b7f9f48bc') in 0.028029 seconds
+  Import took 0.037972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f290459e66834ae18402b3a32e5ced5') in 0.025258 seconds
+  Import took 0.032335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1320b576a02a045556db4754eac790db') in 0.022692 seconds
+  Import took 0.029808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8780271c58f2e9d56525924fe40e79') in 0.016067 seconds
+  Import took 0.023625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d94938bfbe4c90209f029026687eba') in 0.020009 seconds
+  Import took 0.023860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57690aa30c6dd220b4450034440ce1cd') in 0.027138 seconds
+  Import took 0.031148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e0b023bed4e54347736a04b4111faf') in 0.021147 seconds
+  Import took 0.030035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22d18c7f15c0a835017cb4c4034c7d1') in 0.019409 seconds
+  Import took 0.023523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45390dc1e0aab0eabf69906ea450698') in 0.024494 seconds
+  Import took 0.027945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1570a52c8118d69e0ff931ad97ecb2bf') in 0.019874 seconds
+  Import took 0.030515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5856e198dd85a6a05a47073948d3445') in 0.017101 seconds
+  Import took 0.021633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca27ae998fbfc86ea111aa0d7f835a6a') in 0.020189 seconds
+  Import took 0.026105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f576a82407909a38b95568ab349bdf5') in 0.020047 seconds
+  Import took 0.023471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132e2fcbe328295d431707e3e18adf0c') in 0.027123 seconds
+  Import took 0.030359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.075147 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png
+  artifactKey: Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00000.png using Guid(70eea0e1af27d1b42bebe05fa1e356d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e13baa73b071d8f42e477a7538ee5da') in 0.027561 seconds
+  Import took 0.031843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png
+  artifactKey: Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00017.png using Guid(c0f5010103897884284aaa0618392032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf4f17c6aeeaffeed09e0b404d63d39') in 0.022653 seconds
+  Import took 0.029528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png
+  artifactKey: Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00014.png using Guid(648b3d5128c5f2c40bcbc043553d11cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aecde782ed9767f7eddc3a32c4e996') in 0.024813 seconds
+  Import took 0.034899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png
+  artifactKey: Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00013.png using Guid(9cb47c78dfc3b4d46a5453a8a93499fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed814f0f4f9fc29d83d8c8fcb1f4d11') in 0.028288 seconds
+  Import took 0.032103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png
+  artifactKey: Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00006.png using Guid(38013d55c87a03f40a7b3d0b67fcd87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4a5a477eacd0c1426d7298807e56e3') in 0.031945 seconds
+  Import took 0.038641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png
+  artifactKey: Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00001.png using Guid(5e88dabccd28a27468be612fa703bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be08e6307b25f0163b127ae61531ac5') in 0.056209 seconds
+  Import took 0.068769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png
+  artifactKey: Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00018.png using Guid(7984a9eb6fd31ad49acfbfb2508723f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7fdecbfe680c87fdee7ef42aef83a2') in 0.034473 seconds
+  Import took 0.052340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png
+  artifactKey: Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00012.png using Guid(c2380cd6b85877f4d9fb45766c79f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e61c714a6aa3e03fcb733dc910de68') in 0.025346 seconds
+  Import took 0.035322 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000194 seconds.
-  path: Assets/Scenes/FirstProject.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FirstProject.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b4cf478aa66e2aecacc3d1f16f6a3') in 0.011390 seconds
-  Import took 0.015239 seconds .
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png
+  artifactKey: Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00010.png using Guid(72d7a1f8a501b904a9963b0a40fd50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656a7c3fa1cfe23704662cab54f965a0') in 0.024067 seconds
+  Import took 0.028268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png
+  artifactKey: Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00008.png using Guid(5498e5df5fb465e4ba93363f707a96fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1db7795b55332aa0e44d1cf88506ea') in 0.025049 seconds
+  Import took 0.034530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png
+  artifactKey: Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00003.png using Guid(d69c3ba09a93ad04b997f9b76fafdb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7da8db225fa7575f8bc66ca3b6fec38') in 0.020029 seconds
+  Import took 0.024633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png
+  artifactKey: Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00005.png using Guid(479d1c44d9cc1324cbe41a76b516d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84eae50976364a45c03ef97ba14b242e') in 0.018241 seconds
+  Import took 0.024989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png
+  artifactKey: Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00015.png using Guid(707835e894388e04d870ccc4f27c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c4f019a20e65420fa05c2d03272b31') in 0.019088 seconds
+  Import took 0.028754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png
+  artifactKey: Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00019.png using Guid(bdbe2234cc825b840ba3476217626447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91f9a4dcdb4ca4af08188129637b51b') in 0.022917 seconds
+  Import took 0.026306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png
+  artifactKey: Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00007.png using Guid(f6f1b7a6a3794c9449b6020932b4d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6e97f3cc34fc14f77a2ffbef94ff5c') in 0.017259 seconds
+  Import took 0.023922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png
+  artifactKey: Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00011.png using Guid(42ded2ad339884545b380108c2aa1a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f725ea5cdadec63c50b380d59fb81b54') in 0.017898 seconds
+  Import took 0.021548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png
+  artifactKey: Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00016.png using Guid(2ca2806a3f6018340925da217a845ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f623b635470d5335dd53d662dedee') in 0.017122 seconds
+  Import took 0.023730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png
+  artifactKey: Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00004.png using Guid(6a696282198247e49a362306eccd126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d08ff7236ae9e7b6c6cd6e84233861') in 0.021086 seconds
+  Import took 0.027643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png
+  artifactKey: Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00002.png using Guid(445e7ff85b337ea4c9c489f349448c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f545d4ea856efd940974ead2cf949b43') in 0.020311 seconds
+  Import took 0.024652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png
+  artifactKey: Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Idle/Gunner_IDLE_2s_00009.png using Guid(0f2f8b37c5d0f7d4ca8f7853121846d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e9adf33b8f3e9ccf95aa3ba6f378ea') in 0.030531 seconds
+  Import took 0.035062 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
