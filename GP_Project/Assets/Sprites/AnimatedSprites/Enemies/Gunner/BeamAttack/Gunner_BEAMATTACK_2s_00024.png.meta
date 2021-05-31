@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: b0c353e310bf41443bd9460f91e7238a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3442668564048660632
+    second: Gunner_BEAMATTACK_2s_00024_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,7 +116,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gunner_BEAMATTACK_2s_00024_0
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 295
+        width: 435
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8984687a1d0d6cf20800000000000000
+      internalID: 3442668564048660632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

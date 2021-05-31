@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ObjectIndex
+{
+    Bullet= 0,
+    AcidBubbles = 1,
+}
+
+
 [System.Serializable]
 public class ObjectsToPool
 {
@@ -37,7 +44,7 @@ public class PoolManager : MonoBehaviour
 
     }
 
-    public GameObject ReturnObject()
+    public GameObject ReturnObject(ObjectIndex obj)
     {
         return null;
     }

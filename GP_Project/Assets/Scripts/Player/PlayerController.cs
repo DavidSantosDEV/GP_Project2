@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Grounded Stuff")]
     [SerializeField]
-    private Transform Foot;
+    private Transform[] Feet;
     [SerializeField]
     private float raySize=1;
     [SerializeField]
@@ -19,8 +19,13 @@ public class PlayerController : MonoBehaviour
     private PlayerInput myInput;
 
     private bool isGrounded=true;
+    [SerializeField]
+    private bool canMove = true;
 
     private PlayerMovement _playerMovement;
+    private PlayerAnimation _playerAnimation;
+    private PlayerWeapon _playerWeapon;
+
     private void Awake()
     {
         myInput = new PlayerInput();
@@ -36,19 +41,28 @@ public class PlayerController : MonoBehaviour
         myInput.Enable();
 
         _playerMovement = GetComponent<PlayerMovement>();
+        _playerAnimation = GetComponent<PlayerAnimation>();
+        _playerWeapon = GetComponent<PlayerWeapon>();
     }
 
     private void OnMovement(InputAction.CallbackContext cntx)
     {
-        float val= cntx.ReadValue<float>();
-        _playerMovement.UpdateHorizontalInput(val);
-        FlipCharacter(val);
-
+        if (canMove)
+        {
+            float val = cntx.ReadValue<float>();
+            _playerMovement.UpdateHorizontalInput(val);
+            FlipCharacter(val);
+            _playerAnimation.UpdateMovementAnimation(Mathf.Abs(val));
+        }
     }
 
     private void OnStopMovement(InputAction.CallbackContext cntx)
     {
-        _playerMovement.UpdateHorizontalInput(0);
+        if (canMove)
+        {
+            _playerMovement.UpdateHorizontalInput(0);
+            _playerAnimation.UpdateMovementAnimation(0);
+        }
     }
 
     private void OnJump(InputAction.CallbackContext cntx)
@@ -63,7 +77,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded)
         {
-
+            _playerWeapon.Attack();
         }
     }
 
@@ -89,14 +103,25 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGrounded()
     {
-        isGrounded = Physics2D.Raycast(Foot.position, Vector2.down, raySize, layerGround);
+        foreach(Transform t in Feet){
+            if(Physics2D.Raycast(t.position, Vector2.down, raySize, layerGround))
+            {
+                isGrounded = true;
+                return;
+            }
+            else
+            {
+                isGrounded = false;
+            }
+        }
     }
 
     private void OnDrawGizmos()
     {
 
         Gizmos.color = !isGrounded ?  Color.red: Color.green;
-        Gizmos.DrawRay(Foot.position, Vector2.down*raySize);
+        Gizmos.DrawRay(Feet[0].position, Vector2.down*raySize);
+        Gizmos.DrawRay(Feet[1].position, Vector2.down * raySize);
         
     }
 
@@ -104,9 +129,21 @@ public class PlayerController : MonoBehaviour
     {
         CheckGrounded();
     }
-    // Update is called once per frame
-    void Update()
+
+    public void OnDeath()
     {
-        
+        enabled = false;
+        myInput.Disable();
+    }
+
+
+    public void StopMovement()
+    {
+        canMove = false;
+    }
+
+    public void EnableMovement()
+    {
+        canMove = true;
     }
 }
