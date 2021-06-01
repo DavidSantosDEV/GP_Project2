@@ -13,9 +13,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private LayerMask layerGround;
 
-    [SerializeField]
-    private float speedGroundedCheck=2;
-
     private PlayerInput myInput;
 
     private bool isGrounded=true;
@@ -25,6 +22,8 @@ public class PlayerController : MonoBehaviour
     private PlayerMovement _playerMovement;
     private PlayerAnimation _playerAnimation;
     private PlayerWeapon _playerWeapon;
+
+    public PlayerWeapon PlayerWeaponComponent => _playerWeapon;
 
     private void Awake()
     {
@@ -60,15 +59,21 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            _playerMovement.UpdateHorizontalInput(0);
-            _playerAnimation.UpdateMovementAnimation(0);
+            StopMovement();
         }
+    }
+
+    private void StopMovement()
+    {
+        _playerMovement.UpdateHorizontalInput(0);
+        _playerAnimation.UpdateMovementAnimation(0);
     }
 
     private void OnJump(InputAction.CallbackContext cntx)
     {
         if (isGrounded)
         {
+            StopMovement();
             _playerMovement.Jump();
         }
     }
@@ -77,6 +82,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded)
         {
+            StopMovement();
             _playerWeapon.Attack();
         }
     }
@@ -137,7 +143,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    public void StopMovement()
+    public void DisableMovement()
     {
         canMove = false;
     }

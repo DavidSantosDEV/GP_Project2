@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19041.450; Version 2004; 64bit' Language: 'en' Physical Memory: 16158 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16330 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1215 +11,131 @@ C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project
+C:/Users/David/Documents/GitHub/GP_Project2/GP_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59634
-Successfully changed project path to: C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project
-C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project
+57296
+Successfully changed project path to: C:/Users/David/Documents/GitHub/GP_Project2/GP_Project
+C:/Users/David/Documents/GitHub/GP_Project2/GP_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/2202226/Documents/GitHub/GP_Project2/GP_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/David/Documents/GitHub/GP_Project2/GP_Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 560X Series (ID=0x67ff)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   
-    VRAM:     4075 MB
-    Driver:   27.20.1026.1
+    VRAM:     5980 MB
+    Driver:   27.21.14.6647
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001140 seconds.
+Registered in 0.001849 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.01 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.697 seconds
+- Completed reload, in  1.095 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000714 seconds.
+Registered in 0.002003 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.67 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 45.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
+- Completed reload, in  1.062 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.8 MB.
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2564.
-Total: 2.883800 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.097200 ms MarkObjects: 2.440000 ms  DeleteObjects: 0.080800 ms)
+Total: 3.064100 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.058700 ms MarkObjects: 2.649700 ms  DeleteObjects: 0.076900 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Prefabs/Player.prefab
   artifactKey: Guid(bbb87a27cbb917d4eabac76fa9f740cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(bbb87a27cbb917d4eabac76fa9f740cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f741606e1866d2c0189c7c416c5abb') in 0.140046 seconds
-  Import took 0.144788 seconds .
+Start importing Assets/Prefabs/Player.prefab using Guid(bbb87a27cbb917d4eabac76fa9f740cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3982d608714c5b0994f76e0dbef762b4') in 0.125971 seconds
+  Import took 0.130424 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Prefabs/Platform.prefab
-  artifactKey: Guid(2ebedbcaf9b03d443a0d4289bd3d3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Platform.prefab using Guid(2ebedbcaf9b03d443a0d4289bd3d3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c83e31503c1ba31c4a973de0217dbe') in 0.028521 seconds
-  Import took 0.031995 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/Prefabs/PlayerBullet.prefab
+  artifactKey: Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerBullet.prefab using Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84d4d24ee29441bcba266da6db0229a') in 0.014083 seconds
+  Import took 0.017986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Prefabs/Wall.prefab
-  artifactKey: Guid(862050e6f3d3a8c4a962fc52bc132985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Wall.prefab using Guid(862050e6f3d3a8c4a962fc52bc132985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dbbe7ae7e29549a66b18da4088264f') in 0.039050 seconds
-  Import took 0.043776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.554225 seconds.
-  path: Assets/Sprites/VFX/Environment/AcidBubbles.png
-  artifactKey: Guid(8aac75403b9983245878c05a591a41e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Environment/AcidBubbles.png using Guid(8aac75403b9983245878c05a591a41e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf416141f6d09b5fac175cec515c9d1') in 0.054108 seconds
-  Import took 0.062077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Sprites/Environment/AlienStatue04.png
-  artifactKey: Guid(bef25e5c0be663343916a03fc320310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/AlienStatue04.png using Guid(bef25e5c0be663343916a03fc320310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8513881d3ff6d3f6ca27d3399cc4e3b') in 0.034317 seconds
-  Import took 0.038417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Sprites/Environment/AlienStatue01.png
-  artifactKey: Guid(1df3918473a113248914a974c06820f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/AlienStatue01.png using Guid(1df3918473a113248914a974c06820f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c3afd4613d2deaae04839099d0ac29') in 0.031287 seconds
-  Import took 0.035353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/Environment/AlienSculpture01b.png
-  artifactKey: Guid(eb3bdae8b6cf3844ea3910e21f37b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/AlienSculpture01b.png using Guid(eb3bdae8b6cf3844ea3910e21f37b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fad795ac7c3d1870c3afa97feaf553') in 0.027923 seconds
-  Import took 0.033532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/Beam.png
-  artifactKey: Guid(863e71e3198605c46a20d43986591f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/Beam.png using Guid(863e71e3198605c46a20d43986591f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bb5d66c2f59e924eeea633c5a4b30d') in 0.032750 seconds
-  Import took 0.041717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Sprites/Environment/AlienBlock05.png
-  artifactKey: Guid(1e1fa0ed785090b41930dd017f1d406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/AlienBlock05.png using Guid(1e1fa0ed785090b41930dd017f1d406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51319865c3d9d9349871dab290730382') in 0.031126 seconds
-  Import took 0.035853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Sprites/Environment/AlienBlock04.png
-  artifactKey: Guid(c34a41592f862d449b4e932f888e9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/AlienBlock04.png using Guid(c34a41592f862d449b4e932f888e9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035f66dbb15926b34dc263c59a84904f') in 0.035160 seconds
-  Import took 0.040443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000612 seconds.
-  path: Assets/Sprites/VFX/Environment/AcidBubbles.png
-  artifactKey: Guid(8aac75403b9983245878c05a591a41e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Environment/AcidBubbles.png using Guid(8aac75403b9983245878c05a591a41e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf416141f6d09b5fac175cec515c9d1') in 0.024644 seconds
-  Import took 0.033532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Sprites/Environment/AlienFlora.png
-  artifactKey: Guid(0307c197555d7f84aa53505f02aef799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/AlienFlora.png using Guid(0307c197555d7f84aa53505f02aef799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc2090d29a6c4d7e6df42a3737c2e23') in 0.048861 seconds
-  Import took 0.056717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.669070 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/Beam2.png
-  artifactKey: Guid(a7099d5cbac999e439fece6ed11903df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/Beam2.png using Guid(a7099d5cbac999e439fece6ed11903df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c9077a6f290f140d67b8d401a969ad') in 0.018126 seconds
-  Import took 0.021928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/Environment/BGRock01.png
-  artifactKey: Guid(84e111d36f1a4ff47aec6e8eafedda23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/BGRock01.png using Guid(84e111d36f1a4ff47aec6e8eafedda23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b86506b47830a2508364cb9286529e') in 0.017636 seconds
-  Import took 0.020886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.417755 seconds.
-  path: Assets/Sprites/Environment/BGRock04.png
-  artifactKey: Guid(0ea0965d10b9673488736fceeb2de3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/BGRock04.png using Guid(0ea0965d10b9673488736fceeb2de3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acf9c3e1a521a8e9d97b963ba472b73') in 0.014760 seconds
-  Import took 0.018470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/VFX/Enemies/Chomper/Bite.png
-  artifactKey: Guid(bbf3324ae8273bf41a2022f155acc8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Chomper/Bite.png using Guid(bbf3324ae8273bf41a2022f155acc8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bf6d34f7dcac6cc20cdec0604eb919') in 0.021091 seconds
-  Import took 0.025413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219387 seconds.
-  path: Assets/Sprites/UI/HUD/BossHealth.png
-  artifactKey: Guid(57543b526f5eff04b8b976c6da67ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/HUD/BossHealth.png using Guid(57543b526f5eff04b8b976c6da67ede0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b95f0d35a01a85090497dca4e4871be') in 0.030758 seconds
-  Import took 0.034140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Sprites/UI/HUD/BossShield.png
-  artifactKey: Guid(2460bb34e3cd57644a61a36d07bdb084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/HUD/BossShield.png using Guid(2460bb34e3cd57644a61a36d07bdb084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ecd657d248025b33b925aeb9542447') in 0.056143 seconds
-  Import took 0.059214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113680 seconds.
-  path: Assets/Sprites/Interactables/Bridge.png
-  artifactKey: Guid(33dfa6471d753b24eade91a3268e4dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/Bridge.png using Guid(33dfa6471d753b24eade91a3268e4dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a93347a2d6ce2958f146963c2b38986') in 0.020758 seconds
-  Import took 0.024432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/VFX/Ellen/Bullet.png
-  artifactKey: Guid(04a5d086a2803d744948f8e6ad33df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Ellen/Bullet.png using Guid(04a5d086a2803d744948f8e6ad33df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188020c47a9a11cdd43c5bbe3e149b40') in 0.020812 seconds
-  Import took 0.023989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061757 seconds.
-  path: Assets/Sprites/VFX/Ellen/BulletImpact.png
-  artifactKey: Guid(903939c4e987cb142ab7056e56f87190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Ellen/BulletImpact.png using Guid(903939c4e987cb142ab7056e56f87190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9313c51e72fc056783780995bbc1f876') in 0.023564 seconds
-  Import took 0.028598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00001.png
-  artifactKey: Guid(090aedddfb4b03146acfec246a7fb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00001.png using Guid(090aedddfb4b03146acfec246a7fb680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccf03b24d9bcaa124cc267421449794') in 0.027570 seconds
-  Import took 0.030849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.269907 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00003.png
-  artifactKey: Guid(d5520aacaf495334dbeb45ecddb0b27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00003.png using Guid(d5520aacaf495334dbeb45ecddb0b27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd783ebd50abd66fcc5da3ce32f62c') in 0.023008 seconds
-  Import took 0.026473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00005.png
-  artifactKey: Guid(f2b7c3e29a79fdd44bada744f61e0036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00005.png using Guid(f2b7c3e29a79fdd44bada744f61e0036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1fc93f92eda2065883a63f73a46eea') in 0.025237 seconds
-  Import took 0.028342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.232947 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00007.png
-  artifactKey: Guid(975cb9b88780ab44095343f48b94f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00007.png using Guid(975cb9b88780ab44095343f48b94f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa55c88643daa7c8cdf8b8d6ee5d3bb9') in 0.023928 seconds
-  Import took 0.027971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00009.png
-  artifactKey: Guid(cd8445366422f1142b9f14b5538daccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00009.png using Guid(cd8445366422f1142b9f14b5538daccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523082a71ede3042bcdfa72df148bcd0') in 0.022744 seconds
-  Import took 0.027137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184362 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00011.png
-  artifactKey: Guid(3fe2cd2023f7978428ce4b738d89191b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00011.png using Guid(3fe2cd2023f7978428ce4b738d89191b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a9a604bdfd76b6499062fcb550fe74') in 0.022272 seconds
-  Import took 0.026017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00013.png
-  artifactKey: Guid(cdfa1e6d101219046a1bc17f7f64328b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00013.png using Guid(cdfa1e6d101219046a1bc17f7f64328b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b044ebf515f06b0ad5ca1bf79d0caa') in 0.021411 seconds
-  Import took 0.025017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.150405 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00015.png
-  artifactKey: Guid(c5b29b4d15c164c409ce48233fafd2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00015.png using Guid(c5b29b4d15c164c409ce48233fafd2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1348111368e5bb8f21dd86114659594e') in 0.025624 seconds
-  Import took 0.029231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00017.png
-  artifactKey: Guid(a3ae28ec770eaf141bd3e8f4cce1b62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00017.png using Guid(a3ae28ec770eaf141bd3e8f4cce1b62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b377235c5bd32cb560d77cfc868e216') in 0.025785 seconds
-  Import took 0.030025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.449810 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00019.png
-  artifactKey: Guid(9cab2343b2b3a4a49a67cd7c69fb2444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00019.png using Guid(9cab2343b2b3a4a49a67cd7c69fb2444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94284d90a1805a3296fbd727d2f36d3') in 0.023088 seconds
-  Import took 0.026911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Sprites/VFX/Enemies/Chomper/ChomperBits.png
-  artifactKey: Guid(70eaa31716de0554c95956f57ea1c01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Chomper/ChomperBits.png using Guid(70eaa31716de0554c95956f57ea1c01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34571ebceeb1773cbf17742a76aff1f5') in 0.023538 seconds
-  Import took 0.028134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00019.png
-  artifactKey: Guid(9cab2343b2b3a4a49a67cd7c69fb2444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00019.png using Guid(9cab2343b2b3a4a49a67cd7c69fb2444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94284d90a1805a3296fbd727d2f36d3') in 0.032082 seconds
-  Import took 0.039368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/Sprites/VFX/Enemies/Chomper/ChomperBits.png
-  artifactKey: Guid(70eaa31716de0554c95956f57ea1c01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Chomper/ChomperBits.png using Guid(70eaa31716de0554c95956f57ea1c01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34571ebceeb1773cbf17742a76aff1f5') in 0.020946 seconds
-  Import took 0.026745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003557 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_01.png
-  artifactKey: Guid(cb0c6e6ba9e99324a967705863ee2b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_01.png using Guid(cb0c6e6ba9e99324a967705863ee2b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49408faea47f0acef2240512e059296e') in 0.029555 seconds
-  Import took 0.038858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_05.png
-  artifactKey: Guid(5e28216353069bc4c890eacf8f222a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_05.png using Guid(5e28216353069bc4c890eacf8f222a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb41b62101124f0cfb9958241bdf5b5') in 0.037181 seconds
-  Import took 0.041359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_03.png
-  artifactKey: Guid(157a60b6d662d904686d255a6269114b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_03.png using Guid(157a60b6d662d904686d255a6269114b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd3458813f05dbcc562c986009b732a') in 0.037756 seconds
-  Import took 0.043240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_07.png
-  artifactKey: Guid(80d362e2a8e6dea4ca496c3d06c70593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_07.png using Guid(80d362e2a8e6dea4ca496c3d06c70593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67879f51496faa50e830a1437721429') in 0.031891 seconds
-  Import took 0.037760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081546 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_09.png
-  artifactKey: Guid(1ba20602f7a72394db7af734eccfbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_09.png using Guid(1ba20602f7a72394db7af734eccfbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ba69f806b25a465d5cfebf290a2b8') in 0.026086 seconds
-  Import took 0.034202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_11.png
-  artifactKey: Guid(ee3c6e490a5b9874faed91688cf629a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_11.png using Guid(ee3c6e490a5b9874faed91688cf629a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf5f5260d36d7ba8bba189f69b24567') in 0.027248 seconds
-  Import took 0.030790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_13.png
-  artifactKey: Guid(d962265fde5e05546bc3bba171d807dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_13.png using Guid(d962265fde5e05546bc3bba171d807dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dd79df6cabd591f83c6232cf6ee732') in 0.031375 seconds
-  Import took 0.035212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00003.png
-  artifactKey: Guid(cd402b096adf7a946b0ea590e2785429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00003.png using Guid(cd402b096adf7a946b0ea590e2785429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafd1fa5982a8136f9b13af92da30ee0') in 0.036977 seconds
-  Import took 0.042850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.412427 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00005.png
-  artifactKey: Guid(9c8949187fcf3fd418bb9a25c15a28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00005.png using Guid(9c8949187fcf3fd418bb9a25c15a28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0662b4dec9c996ee0abaa8ef7f0fcc') in 0.019962 seconds
-  Import took 0.024213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00007.png
-  artifactKey: Guid(afbe2ce7630e058488d1e3f929ff8764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00007.png using Guid(afbe2ce7630e058488d1e3f929ff8764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8448900f0162c4f5aea3da8756f21adf') in 0.023176 seconds
-  Import took 0.027047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053390 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00009.png
-  artifactKey: Guid(b35bc010063aec743832d494d6cfc1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00009.png using Guid(b35bc010063aec743832d494d6cfc1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e284ad3f37c2a79fbcbcc94635dea189') in 0.026703 seconds
-  Import took 0.031629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00011.png
-  artifactKey: Guid(e7d1e33265b0d50459fe6ca636a80b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00011.png using Guid(e7d1e33265b0d50459fe6ca636a80b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178155419cca91909b17833dcb68d99d') in 0.022080 seconds
-  Import took 0.025406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065507 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00013.png
-  artifactKey: Guid(37a49060cf54e0643adec1eebeef9020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00013.png using Guid(37a49060cf54e0643adec1eebeef9020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc4e77b65f2e6b83f85c10844998ce8') in 0.026632 seconds
-  Import took 0.030252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00015.png
-  artifactKey: Guid(6da546e2d337b254e97171fcfaaa08ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00015.png using Guid(6da546e2d337b254e97171fcfaaa08ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeaedf3a84db63e9d2faf129dd735fc') in 0.022760 seconds
-  Import took 0.029191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.306872 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00017.png
-  artifactKey: Guid(e737557334181b9428ac08c41c40970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00017.png using Guid(e737557334181b9428ac08c41c40970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ea2fdbb263b4cc873f021a4fe7158c') in 0.021261 seconds
-  Import took 0.025335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00019.png
-  artifactKey: Guid(9d72efa649ae8834ba9e3ee13fda7ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00019.png using Guid(9d72efa649ae8834ba9e3ee13fda7ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c4c28d9762ffa041780600600a1a03') in 0.024749 seconds
-  Import took 0.030088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00017.png
-  artifactKey: Guid(e737557334181b9428ac08c41c40970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00017.png using Guid(e737557334181b9428ac08c41c40970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ea2fdbb263b4cc873f021a4fe7158c') in 0.024603 seconds
-  Import took 0.028633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00019.png
-  artifactKey: Guid(9d72efa649ae8834ba9e3ee13fda7ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00019.png using Guid(9d72efa649ae8834ba9e3ee13fda7ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c4c28d9762ffa041780600600a1a03') in 0.015093 seconds
-  Import took 0.024504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006040 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00021.png
-  artifactKey: Guid(f3a68e575d2970544aa66b7eb547feaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00021.png using Guid(f3a68e575d2970544aa66b7eb547feaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe6bfe208b83b131022e0a5c804d9d7') in 0.031791 seconds
-  Import took 0.037474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00023.png
-  artifactKey: Guid(2d124786bbfd62f4388435515cb4d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00023.png using Guid(2d124786bbfd62f4388435515cb4d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d796b9b952a485791d922b1a881a33') in 0.027304 seconds
-  Import took 0.030892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00025.png
-  artifactKey: Guid(167368f550ed78a4489ad8bf955c42d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00025.png using Guid(167368f550ed78a4489ad8bf955c42d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ff50badd9f2139b57055016d210db') in 0.035991 seconds
-  Import took 0.042493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00027.png
-  artifactKey: Guid(49492553f423cef4da0f34bff699a460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00027.png using Guid(49492553f423cef4da0f34bff699a460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e07093fe972d5113e72e67c61e91a9') in 0.032179 seconds
-  Import took 0.037724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.163996 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00029.png
-  artifactKey: Guid(4d232e3567eaa7c4ab3a4c9371c388db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00029.png using Guid(4d232e3567eaa7c4ab3a4c9371c388db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7374a8e70d21d8b2139a590a8c38d3e4') in 0.025256 seconds
-  Import took 0.028730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00031.png
-  artifactKey: Guid(911a8bd0a6b62eb4f8c7f2084de146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00031.png using Guid(911a8bd0a6b62eb4f8c7f2084de146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178d6dc48f8091039a44e908fa2d6e6c') in 0.023765 seconds
-  Import took 0.027904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00029.png
-  artifactKey: Guid(4d232e3567eaa7c4ab3a4c9371c388db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00029.png using Guid(4d232e3567eaa7c4ab3a4c9371c388db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7374a8e70d21d8b2139a590a8c38d3e4') in 0.026198 seconds
-  Import took 0.030594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00031.png
-  artifactKey: Guid(911a8bd0a6b62eb4f8c7f2084de146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00031.png using Guid(911a8bd0a6b62eb4f8c7f2084de146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178d6dc48f8091039a44e908fa2d6e6c') in 0.020342 seconds
-  Import took 0.026256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00033.png
-  artifactKey: Guid(4bc2b6f273294e4469ae787255c27b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00033.png using Guid(4bc2b6f273294e4469ae787255c27b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091a085e0ce9c255c3b02bd9b9dfc5d9') in 0.031362 seconds
-  Import took 0.035719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00035.png
-  artifactKey: Guid(c0fa02660a94d9444a6c85c0a37c05a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00035.png using Guid(c0fa02660a94d9444a6c85c0a37c05a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9c2c67f8401a84ac736bb587673130') in 0.034779 seconds
-  Import took 0.042323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017063 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00037.png
-  artifactKey: Guid(21bfb51056d290947b5f9d78e46172b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00037.png using Guid(21bfb51056d290947b5f9d78e46172b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2edcfecefac884627537aa1eef033f8') in 0.033660 seconds
-  Import took 0.041418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00039.png
-  artifactKey: Guid(f0b77e00fed430c4fb72e9db61180cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00039.png using Guid(f0b77e00fed430c4fb72e9db61180cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083f5484d8db2b9f06f494da7dc2281') in 0.033694 seconds
-  Import took 0.039453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023314 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00041.png
-  artifactKey: Guid(6c6ad381e58798e4ab35d11e73bac7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00041.png using Guid(6c6ad381e58798e4ab35d11e73bac7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f58bb8da67d42cffacd06d3e7289d73') in 0.032370 seconds
-  Import took 0.038821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00043.png
-  artifactKey: Guid(66e079f698bed53488f3540a3e9fd496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00043.png using Guid(66e079f698bed53488f3540a3e9fd496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbfe20a14df673e751d0078e3091e8b') in 0.033349 seconds
-  Import took 0.040767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022324 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00045.png
-  artifactKey: Guid(e4bff28476f3a1046bd81de44efcad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00045.png using Guid(e4bff28476f3a1046bd81de44efcad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf933c940b8f1c9103e5f99df025628') in 0.035967 seconds
-  Import took 0.042710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00047.png
-  artifactKey: Guid(c6312f0166d5aa949b7d695c776fe62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00047.png using Guid(c6312f0166d5aa949b7d695c776fe62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51bfa95d441f5f11862296709a449db') in 0.033982 seconds
-  Import took 0.038341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.218762 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00049.png
-  artifactKey: Guid(b77d63c61951047408a43e10c0a3440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00049.png using Guid(b77d63c61951047408a43e10c0a3440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d76b8e9ccc29990b5b1a073e8f8b45') in 0.020775 seconds
-  Import took 0.024237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00051.png
-  artifactKey: Guid(e6230d8d4d10c764593c7f69facf6620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00051.png using Guid(e6230d8d4d10c764593c7f69facf6620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fb217b669721f5c38e8ee8023d0642') in 0.020722 seconds
-  Import took 0.024077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00055.png
-  artifactKey: Guid(004a23909838816448b31391abd337b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00055.png using Guid(004a23909838816448b31391abd337b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed09283732f35d3318b0896fbdc7684') in 0.036218 seconds
-  Import took 0.043679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00051.png
-  artifactKey: Guid(e6230d8d4d10c764593c7f69facf6620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00051.png using Guid(e6230d8d4d10c764593c7f69facf6620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fb217b669721f5c38e8ee8023d0642') in 0.025722 seconds
-  Import took 0.032697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00049.png
-  artifactKey: Guid(b77d63c61951047408a43e10c0a3440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00049.png using Guid(b77d63c61951047408a43e10c0a3440a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d76b8e9ccc29990b5b1a073e8f8b45') in 0.016808 seconds
-  Import took 0.020422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00053.png
-  artifactKey: Guid(58b2cc2aa96e41544b3d31e3b96758da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00053.png using Guid(58b2cc2aa96e41544b3d31e3b96758da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fce6e3804c666ddc24d096caaf32f5') in 0.032009 seconds
-  Import took 0.035761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015632 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00057.png
-  artifactKey: Guid(54fe0edb1113f9b4195d15dfd6b8dd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00057.png using Guid(54fe0edb1113f9b4195d15dfd6b8dd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6538c8163448542489948be36c2e11c3') in 0.031337 seconds
-  Import took 0.035982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00059.png
-  artifactKey: Guid(2f5817b5fc34c304b9cf53ec434c1ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00059.png using Guid(2f5817b5fc34c304b9cf53ec434c1ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b103ea86aaa0c79b5147148bc828d0') in 0.041304 seconds
-  Import took 0.044981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdleE_00001.png
-  artifactKey: Guid(fb1631c5b4571ac4291a78fcfda6dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdleE_00001.png using Guid(fb1631c5b4571ac4291a78fcfda6dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872ae28e4765dc4050dfb6ba191a9e72') in 0.037157 seconds
-  Import took 0.044675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000767 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00001.png
-  artifactKey: Guid(4f3d7d41d69a3a441bc782ac6f37f2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00001.png using Guid(4f3d7d41d69a3a441bc782ac6f37f2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6c064b2ca39345b162bdaa1553df76') in 0.037712 seconds
-  Import took 0.042218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.184351 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00003.png
-  artifactKey: Guid(0b89cc57e26b2d845bdf0bcc9342154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00003.png using Guid(0b89cc57e26b2d845bdf0bcc9342154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1745e2671b3431e5b81636df190da58b') in 0.024827 seconds
-  Import took 0.028747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00005.png
-  artifactKey: Guid(aca26079ed19e4842900e87b9183417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00005.png using Guid(aca26079ed19e4842900e87b9183417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7140eaaf7b6f346ddaca022701cc0cd9') in 0.029551 seconds
-  Import took 0.033504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050890 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00007.png
-  artifactKey: Guid(07b637bb9b2651945847dd9f6832008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00007.png using Guid(07b637bb9b2651945847dd9f6832008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8ee19cb64a186a8b464bac34732980') in 0.031759 seconds
-  Import took 0.036300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00005.png
-  artifactKey: Guid(193b02a81c7a5104d8d593b21f7cc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00005.png using Guid(193b02a81c7a5104d8d593b21f7cc931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602bae246024bd7109bd791d83f9584e') in 0.030018 seconds
-  Import took 0.036745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00009.png
-  artifactKey: Guid(02e62380af891bd489e23b031fc0e5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00009.png using Guid(02e62380af891bd489e23b031fc0e5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20af351e0ea4a962d2ebe1c11142673') in 0.027499 seconds
-  Import took 0.036558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00003.png
-  artifactKey: Guid(06983dd2b710a2c43ad76557958571da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00003.png using Guid(06983dd2b710a2c43ad76557958571da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa86a1f0785d56bffdd5d98c3712ffc2') in 0.035425 seconds
-  Import took 0.039953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00001.png
-  artifactKey: Guid(9f0bc308f59084a4db48db92b24143f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00001.png using Guid(9f0bc308f59084a4db48db92b24143f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2c7b660b27aa0d3bb4c8a00111b4c7') in 0.032924 seconds
-  Import took 0.038036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00011.png
-  artifactKey: Guid(956dd789871f6d54c900491504f6c001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00011.png using Guid(956dd789871f6d54c900491504f6c001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846f4fdc56296ce91f40e367a8f8e2ff') in 0.036066 seconds
-  Import took 0.044738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00009.png
-  artifactKey: Guid(e364dc61dd9e10042ba3a2eb0b421959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00009.png using Guid(e364dc61dd9e10042ba3a2eb0b421959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64cf9e9f6205ee71cc0e40e0d10b963') in 0.039406 seconds
-  Import took 0.044077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00007.png
-  artifactKey: Guid(3bf6c6cae5ce9e7409acf9226d36df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00007.png using Guid(3bf6c6cae5ce9e7409acf9226d36df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b34b4b64b3d3f70dc37ff699b7f094f') in 0.036558 seconds
-  Import took 0.040465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.144308 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00011.png
-  artifactKey: Guid(41f4e1f37ae7aa54dbff7be361c35d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00011.png using Guid(41f4e1f37ae7aa54dbff7be361c35d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63e898c466646790eee9813db7f7675') in 0.021510 seconds
-  Import took 0.025147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00017.png
-  artifactKey: Guid(6e518daeb2ccd574a8b4d279787bf812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00017.png using Guid(6e518daeb2ccd574a8b4d279787bf812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d58e1a9e8df9992939809396cd51be') in 0.023689 seconds
-  Import took 0.026995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00015.png
-  artifactKey: Guid(94a92c04e4b1c084381fcea5603ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00015.png using Guid(94a92c04e4b1c084381fcea5603ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef983aa0acf4872fb0a56b0ab8147c4') in 0.029138 seconds
-  Import took 0.033555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00013.png
-  artifactKey: Guid(eda2ae7313e4dad45b249b43102f7902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00013.png using Guid(eda2ae7313e4dad45b249b43102f7902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107a39bfd22f24c27984147acf6d9648') in 0.032820 seconds
-  Import took 0.040132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000850 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00019.png
-  artifactKey: Guid(f18bcb36f69bcda41b810c3842b805f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00019.png using Guid(f18bcb36f69bcda41b810c3842b805f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6484b5e395ffa576ccbbd5636b1141d6') in 0.031754 seconds
-  Import took 0.037647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Sprites/VFX/Interactables/Circle.png
-  artifactKey: Guid(491546237fba71e44a781c3e8ed982e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Interactables/Circle.png using Guid(491546237fba71e44a781c3e8ed982e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5ae751b6ac118d7c59b05daaa4228f') in 0.028754 seconds
-  Import took 0.032872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00019.png
-  artifactKey: Guid(f18bcb36f69bcda41b810c3842b805f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00019.png using Guid(f18bcb36f69bcda41b810c3842b805f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6484b5e395ffa576ccbbd5636b1141d6') in 0.029891 seconds
-  Import took 0.033287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Sprites/Interactables/DestructibleColumn.png
-  artifactKey: Guid(e98c1c30a2b6cbb4eb383d83b30e3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/DestructibleColumn.png using Guid(e98c1c30a2b6cbb4eb383d83b30e3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928be19df262aed059611be28ac23f7b') in 0.065840 seconds
-  Import took 0.069280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010370 seconds.
-  path: Assets/Sprites/Interactables/DestructibleColumn.png
-  artifactKey: Guid(e98c1c30a2b6cbb4eb383d83b30e3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/DestructibleColumn.png using Guid(e98c1c30a2b6cbb4eb383d83b30e3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928be19df262aed059611be28ac23f7b') in 0.037333 seconds
-  Import took 0.050647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.745941 seconds.
-  path: Assets/Sprites/Environment/DistantMount(tilable).png
-  artifactKey: Guid(3338bbb863e8ff2419731c0eca6993b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/DistantMount(tilable).png using Guid(3338bbb863e8ff2419731c0eca6993b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b9af3653b92dde3a70fdab3c31a359') in 0.012378 seconds
-  Import took 0.015875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sprites/UI/HUD/EllenHealth.png
-  artifactKey: Guid(4a96ec1a8e90beb408590fe152ec0bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/HUD/EllenHealth.png using Guid(4a96ec1a8e90beb408590fe152ec0bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da2d11d4902203c6a016805f0383ade') in 0.022707 seconds
-  Import took 0.026103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064383 seconds.
-  path: Assets/Sprites/Environment/FloatingRocks.png
-  artifactKey: Guid(a1f90bd379f84ab40a087ccc2699830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Environment/FloatingRocks.png using Guid(a1f90bd379f84ab40a087ccc2699830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa04008a96dd3ed47f3598424dca93cb') in 0.024868 seconds
-  Import took 0.029643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Sprites/UI/Menu/GameOverEllen.png
-  artifactKey: Guid(e1ddd37342628264e935a0274ac9c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Menu/GameOverEllen.png using Guid(e1ddd37342628264e935a0274ac9c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1e085e215b6768c38844abc2f2bd18') in 0.052941 seconds
-  Import took 0.056888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.293631 seconds.
-  path: Assets/Sprites/VFX/Ellen/GunEffect01.png
-  artifactKey: Guid(a58d056e0abb41e4694ce1f8d738f932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Ellen/GunEffect01.png using Guid(a58d056e0abb41e4694ce1f8d738f932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c57897e0518b855d70005daef1737a') in 0.019876 seconds
-  Import took 0.024198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.024905 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Disabled/Gunner_Disabled_00001.png
-  artifactKey: Guid(c62404efd2a6369438ceebcf1cfd479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Disabled/Gunner_Disabled_00001.png using Guid(c62404efd2a6369438ceebcf1cfd479f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c50ac17f5d02898a1852a11f4a7a29') in 0.020010 seconds
-  Import took 0.023534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041911 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Disabled/Gunner_Disabled_00002.png
-  artifactKey: Guid(4021e1948d2336b4ba524239199130f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Disabled/Gunner_Disabled_00002.png using Guid(4021e1948d2336b4ba524239199130f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fe14608510c7dde8566fa12d19c451') in 0.025604 seconds
-  Import took 0.033759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/AnimatedSprites/Enemies/Gunner/Disabled/Gunner_Disabled_00003.png
-  artifactKey: Guid(155ffdf3ce2dd124e824f5d4aba28edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/AnimatedSprites/Enemies/Gunner/Disabled/Gunner_Disabled_00003.png using Guid(155ffdf3ce2dd124e824f5d4aba28edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ab8d74036563e0dcda612b4a0c2348') in 0.038582 seconds
-  Import took 0.041913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.940147 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectile.png
-  artifactKey: Guid(44f70a73a4d12c143925fd98ff2d187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectile.png using Guid(44f70a73a4d12c143925fd98ff2d187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21aae10dd60208fa89660dc418611db') in 0.019221 seconds
-  Import took 0.023209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectileTrail.png
-  artifactKey: Guid(4f80116453c11c44e8ab17e402cb4382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectileTrail.png using Guid(4f80116453c11c44e8ab17e402cb4382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0886b4ff119e6a5968a4b7fbd33a6cac') in 0.022377 seconds
-  Import took 0.025929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/VFX/Interactables/HealingGlobe.png
-  artifactKey: Guid(c8671e8f111eb914a896420d0baf73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Interactables/HealingGlobe.png using Guid(c8671e8f111eb914a896420d0baf73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb033bdf78ffae37e3c3d37c5b4febf') in 0.034477 seconds
-  Import took 0.037845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/GunnerShield.png
-  artifactKey: Guid(ed3ca173b5d494545b6810af2aff9b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/GunnerShield.png using Guid(ed3ca173b5d494545b6810af2aff9b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79090386bf0d1384391e43640931010') in 0.035728 seconds
-  Import took 0.039262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159618 seconds.
-  path: Assets/Sprites/VFX/Interactables/HealingParticle.png
-  artifactKey: Guid(92ba21471e4c2a449be69a344c7349ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Interactables/HealingParticle.png using Guid(92ba21471e4c2a449be69a344c7349ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04ae871a32be4b59bb8dcbe68048ddc') in 0.020462 seconds
-  Import took 0.023931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Sprites/Interactables/HubDoor0.png
-  artifactKey: Guid(31d1160c6c03f4b4891430f92375f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/HubDoor0.png using Guid(31d1160c6c03f4b4891430f92375f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f99957e8daec60d587b87d3da39e2e') in 0.026707 seconds
-  Import took 0.031951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/VFX/Ellen/HitEffect.tif
-  artifactKey: Guid(9661bbc6e9533864f8c9e9f0bc6c5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Ellen/HitEffect.tif using Guid(9661bbc6e9533864f8c9e9f0bc6c5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1728b359264356035ebda143ef44289') in 0.032594 seconds
-  Import took 0.040157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Sprites/UI/HUD/HealthIconMask.png
-  artifactKey: Guid(97c83696730c4f842a31d8fd9c7449b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/HUD/HealthIconMask.png using Guid(97c83696730c4f842a31d8fd9c7449b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce199a6fa98f569061548d33c7efdbab') in 0.036457 seconds
-  Import took 0.039777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sprites/Interactables/HubDoor3.png
-  artifactKey: Guid(7aa34d6c4f6424640b5c03b3d003670c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/HubDoor3.png using Guid(7aa34d6c4f6424640b5c03b3d003670c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0b4d0540cfae4f6f4502d48f9462ba') in 0.042856 seconds
-  Import took 0.046195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Sprites/Interactables/HubDoorNormal.png
-  artifactKey: Guid(fbc6c9fb3da5bc348989436188ef5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/HubDoorNormal.png using Guid(fbc6c9fb3da5bc348989436188ef5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d30c91cb9910a59efd34fa0725e1ea0') in 0.034295 seconds
-  Import took 0.037577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.649090 seconds.
-  path: Assets/Sprites/Interactables/InfoSign.png
-  artifactKey: Guid(8c7e81653a66a51409e21fe96c3fc62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/InfoSign.png using Guid(8c7e81653a66a51409e21fe96c3fc62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff7efe33ce11aa91ffe7641c92febb5') in 0.019494 seconds
-  Import took 0.022905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Sprites/Interactables/InfoSignNormal.png
-  artifactKey: Guid(d463a1db9956609439b044db2f8a52c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Interactables/InfoSignNormal.png using Guid(d463a1db9956609439b044db2f8a52c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016c9447c6720b70d426fe5fd493c3e0') in 0.019974 seconds
-  Import took 0.023340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088854 seconds.
-  path: Assets/Sprites/UI/HUD/KeyIcon.png
-  artifactKey: Guid(e1628e0d4296b3b4ab5f0721335a0d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/HUD/KeyIcon.png using Guid(e1628e0d4296b3b4ab5f0721335a0d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d8b41caaf5860b50ed6aebb3829289') in 0.021777 seconds
-  Import took 0.026510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.394314 seconds.
-  path: Assets/Sprites/VFX
-  artifactKey: Guid(c46f14c95842c354db484d27ca08e2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX using Guid(c46f14c95842c354db484d27ca08e2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62df2058b25248d6aae6f69bcf96a57') in 0.006649 seconds
-  Import took 0.010212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.830542 seconds.
-  path: Assets/Sprites/VFX/Enemies/Spitter/ProjectileParticle.png
-  artifactKey: Guid(efe615e50bbdea249b3be4720c7cf59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Spitter/ProjectileParticle.png using Guid(efe615e50bbdea249b3be4720c7cf59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb937e394c26c2a9d0c32831d43468ea') in 0.029949 seconds
-  Import took 0.033492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.829580 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectile.png
-  artifactKey: Guid(44f70a73a4d12c143925fd98ff2d187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectile.png using Guid(44f70a73a4d12c143925fd98ff2d187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d28a82827754c25be20feacc324b5e') in 0.011506 seconds
-  Import took 0.016303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectile.png
-  artifactKey: Guid(44f70a73a4d12c143925fd98ff2d187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/VFX/Enemies/Gunner/GunnerProjectile.png using Guid(44f70a73a4d12c143925fd98ff2d187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d28a82827754c25be20feacc324b5e') in 0.026538 seconds
-  Import took 0.032023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.469063 seconds.
-  path: Assets/Sprites/Circle.png
-  artifactKey: Guid(c0be5c0f495ea764aabd55acf0052ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Circle.png using Guid(c0be5c0f495ea764aabd55acf0052ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c036a172f02bf0b55f4da3970c0f1d') in 0.018450 seconds
-  Import took 0.026813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.764187 seconds.
+  Time since last request: 0.000178 seconds.
   path: Assets/Prefabs
   artifactKey: Guid(fd0e0008d8b061447a9ec139a05f2697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(fd0e0008d8b061447a9ec139a05f2697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09b0fd2da4128c70cb23288f5a2037f') in 0.006609 seconds
-  Import took 0.010204 seconds .
+Start importing Assets/Prefabs using Guid(fd0e0008d8b061447a9ec139a05f2697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178d8c73f1f6eb95877bf0831eda4f39') in 0.007539 seconds
+  Import took 0.011201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.884460 seconds.
-  path: Assets/Prefabs/PlayerBullet.prefab
-  artifactKey: Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerBullet.prefab using Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2287c1ebed596522a0ffca1e645dcc37') in 0.010834 seconds
-  Import took 0.014584 seconds .
+  Time since last request: 0.000158 seconds.
+  path: Assets/Prefabs/Platform.prefab
+  artifactKey: Guid(2ebedbcaf9b03d443a0d4289bd3d3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platform.prefab using Guid(2ebedbcaf9b03d443a0d4289bd3d3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b353061de68bddd7a2211ffd04a1b7') in 0.020161 seconds
+  Import took 0.023517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010099 seconds.
-  path: Assets/Prefabs/PlayerBullet.prefab
-  artifactKey: Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerBullet.prefab using Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2287c1ebed596522a0ffca1e645dcc37') in 0.023887 seconds
-  Import took 0.031679 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/Prefabs/Wall.prefab
+  artifactKey: Guid(862050e6f3d3a8c4a962fc52bc132985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall.prefab using Guid(862050e6f3d3a8c4a962fc52bc132985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8d8e4b82e3e3774d1f2d5becfab635') in 0.012868 seconds
+  Import took 0.016906 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.025951 seconds.
-  path: Assets/Prefabs/PlayerBullet.prefab
-  artifactKey: Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerBullet.prefab using Guid(55cb89859a5581e428c270fdb4771cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2bbb8341df9adc97884e69b3626928') in 0.021781 seconds
-  Import took 0.029220 seconds .
+  Time since last request: 0.001926 seconds.
+  path: Assets/Prefabs/Wall.prefab
+  artifactKey: Guid(862050e6f3d3a8c4a962fc52bc132985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall.prefab using Guid(862050e6f3d3a8c4a962fc52bc132985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8d8e4b82e3e3774d1f2d5becfab635') in 0.013288 seconds
+  Import took 0.017859 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000713 seconds.
+Registered in 0.003510 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
+- Completed reload, in  0.777 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2711.
-Total: 2.004800 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.068500 ms MarkObjects: 1.718200 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.8 MB.
 System memory in use after: 98.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2715.
-Total: 3.847900 ms (FindLiveObjects: 0.731900 ms CreateObjectMapping: 0.132800 ms MarkObjects: 2.951600 ms  DeleteObjects: 0.029700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002611 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2719.
-Total: 5.674700 ms (FindLiveObjects: 2.107200 ms CreateObjectMapping: 0.507700 ms MarkObjects: 3.023300 ms  DeleteObjects: 0.029600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001773 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.144 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2723.
-Total: 2.257300 ms (FindLiveObjects: 0.266300 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.882400 ms  DeleteObjects: 0.016000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000883 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 99.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2727.
-Total: 2.228900 ms (FindLiveObjects: 0.222200 ms CreateObjectMapping: 0.079200 ms MarkObjects: 1.913200 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002185 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.9 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2731.
-Total: 2.522200 ms (FindLiveObjects: 0.544900 ms CreateObjectMapping: 0.134300 ms MarkObjects: 1.824900 ms  DeleteObjects: 0.016100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001377 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 99.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2735.
-Total: 2.304900 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.121900 ms MarkObjects: 1.844800 ms  DeleteObjects: 0.015200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 2.211400 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.051800 ms MarkObjects: 1.905500 ms  DeleteObjects: 0.019600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

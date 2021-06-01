@@ -18,6 +18,16 @@ public class PlayerWeapon : MonoBehaviour
     
 
     private float currentGauge;
+    private bool isAttacking=false;
+
+    public bool IsAttacking
+    {
+        set
+        {
+            isAttacking = value;
+        }
+    }
+
 
     private PlayerAnimation _playerAnimation;
 
@@ -30,16 +40,21 @@ public class PlayerWeapon : MonoBehaviour
 
     public void Attack()
     {
-        if (currentGauge - shotCost > 0)
+        if (!isAttacking)
         {
-            currentGauge -= shotCost;
-            _playerAnimation.AttackAnimation();
+            if (currentGauge - shotCost > 0)
+            {
+                currentGauge -= shotCost;
+                _playerAnimation.AttackAnimation();
+                isAttacking = true;
+            }
         }
+        
     }
 
     public void DoAttackEffect()
     {
-        PoolManager.Instance.ReturnObject(ObjectIndex.Bullet);
+        //PoolManager.Instance.ReturnObject(ObjectIndex.Bullet);
 
         Debug.Log("Attack");
     }
