@@ -2343,3 +2343,4 @@ Received Import Request.
 Start importing Assets/AcidBehaviour.cs using Guid(d92d222480382de4481ce3733d6d20e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56e2e34bc4c6615db9baf4cc470065b') in 0.007708 seconds
   Import took 0.010597 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
