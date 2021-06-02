@@ -22,7 +22,10 @@ public class PlayerController : MonoBehaviour
     private PlayerMovement _playerMovement;
     private PlayerAnimation _playerAnimation;
     private PlayerWeapon _playerWeapon;
+    private HealthComponent _playerHealth;
 
+
+    public HealthComponent PlayerHealthComponent => _playerHealth;
     public PlayerWeapon PlayerWeaponComponent => _playerWeapon;
 
     private void Awake()
@@ -39,6 +42,7 @@ public class PlayerController : MonoBehaviour
 
         myInput.Enable();
 
+        _playerHealth = GetComponent<HealthComponent>();
         _playerMovement = GetComponent<PlayerMovement>();
         _playerAnimation = GetComponent<PlayerAnimation>();
         _playerWeapon = GetComponent<PlayerWeapon>();

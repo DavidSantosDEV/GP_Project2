@@ -7,6 +7,8 @@ public class PlayerWeapon : MonoBehaviour
 {
     [Header("Weapon Settings")]
     [SerializeField]
+    private GameObject bulletPrefab;
+    [SerializeField]
     private Transform attackPoint=null;
     [SerializeField]
     private float damage;
@@ -15,7 +17,8 @@ public class PlayerWeapon : MonoBehaviour
     [SerializeField]
     private float shotCost;
 
-    
+
+    public GameObject BulletPrefab => bulletPrefab;
 
     private float currentGauge;
     private bool isAttacking=false;
@@ -54,8 +57,13 @@ public class PlayerWeapon : MonoBehaviour
 
     public void DoAttackEffect()
     {
-        //PoolManager.Instance.ReturnObject(ObjectIndex.Bullet);
-
+        GameObject bullet = PoolManager.Instance.ReturnObject(bulletPrefab);
+        if (bullet)
+        {
+            bullet.transform.position = attackPoint.position;
+            bullet.transform.rotation = attackPoint.rotation;
+            bullet.SetActive(true);
+        }
         Debug.Log("Attack");
     }
 }

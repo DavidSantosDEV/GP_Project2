@@ -19,5 +19,19 @@ public class PlayerBullet : MonoBehaviour
     private void OnDisable()
     {
         body.velocity = Vector2.zero;
+        
     }
+
+    private void OnBecameInvisible()
+    {
+        gameObject.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        gameObject.SetActive(false);
+        PoolManager.Instance.DeSpawn(gameObject, GameManager.Instance.Player.PlayerWeaponComponent.BulletPrefab);
+    }
+
+    
 }
