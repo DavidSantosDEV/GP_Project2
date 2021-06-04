@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 2460bb34e3cd57644a61a36d07bdb084
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4281088507053758753
+    second: BossShield_0
+  - first:
+      213: -890251403302669463
+    second: BossShield_1
+  - first:
+      213: -2708007750580739946
+    second: BossShield_2
+  - first:
+      213: 5261757468594609547
+    second: BossShield_3
+  - first:
+      213: -1637472595058159661
+    second: BossShield_4
+  - first:
+      213: -6340726735283032108
+    second: BossShield_5
+  - first:
+      213: -2215852703842185054
+    second: BossShield_6
+  - first:
+      213: -6679262053425199938
+    second: BossShield_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +113,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BossShield_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 433
+        width: 324
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12952f2a05b796b30800000000000000
+      internalID: 4281088507053758753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 250
+        width: 102
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963f951c01135a3f0800000000000000
+      internalID: -890251403302669463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 341
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69061a96c493b6ad0800000000000000
+      internalID: -2708007750580739946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 311
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d17d92a84850940800000000000000
+      internalID: 5261757468594609547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 303
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df0f1ab9578649e0800000000000000
+      internalID: -1637472595058159661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 281
+        width: 8
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfe1adf0a63108a0800000000000000
+      internalID: -6340726735283032108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 170
+        width: 341
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0d5e8b4b5bf31e0800000000000000
+      internalID: -2215852703842185054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossShield_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 22
+        width: 374
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb448d7fc8e7e43a0800000000000000
+      internalID: -6679262053425199938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

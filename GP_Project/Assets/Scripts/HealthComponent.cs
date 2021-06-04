@@ -9,22 +9,28 @@ public class HealthComponent : MonoBehaviour
 
     protected float currentHealth;
 
-    void Start()
+    private bool isDead=false;
+
+    private void Awake()
     {
         currentHealth = maxHealth;
     }
 
     public virtual void TakeDamage(float dmg)
     {
-        currentHealth = Mathf.Clamp(currentHealth - dmg, 0, maxHealth);
-        if (currentHealth == 0)
+        if (isDead==false)
         {
-            OnDie();
-        }
+            currentHealth = Mathf.Clamp(currentHealth - dmg, 0, maxHealth);
+            if (currentHealth == 0)
+            {
+                OnDie();
+            }
+        }    
     }
 
     protected virtual void OnDie() //Maybe if I had done an interface and then a base class i would only need to make it abstract 
     {
+        isDead = true;
         Debug.Log(gameObject + " has died");
     }
 }

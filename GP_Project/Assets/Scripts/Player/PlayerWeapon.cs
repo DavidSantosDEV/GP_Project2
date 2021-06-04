@@ -47,7 +47,6 @@ public class PlayerWeapon : MonoBehaviour
         {
             if (currentGauge - shotCost > 0)
             {
-                currentGauge -= shotCost;
                 _playerAnimation.AttackAnimation();
                 isAttacking = true;
             }
@@ -63,6 +62,8 @@ public class PlayerWeapon : MonoBehaviour
             bullet.transform.position = attackPoint.position;
             bullet.transform.rotation = attackPoint.rotation;
             bullet.SetActive(true);
+            currentGauge -= shotCost;
+            UIManager.Instance.SetCharge(currentGauge, maxWeaponGauge);
         }
         Debug.Log("Attack");
     }

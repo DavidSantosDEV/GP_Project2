@@ -27,7 +27,7 @@ public class AcidThrower : MonoBehaviour
     {
         while (enabled)
         {
-            GameObject acidBubble = PoolManager.Instance.ReturnObject(acidPrefab);
+            GameObject acidBubble = PoolManager.Instance?.ReturnObject(acidPrefab);
             if (acidBubble)
             {
                 float x = Random.Range(-extentsCol, extentsCol);

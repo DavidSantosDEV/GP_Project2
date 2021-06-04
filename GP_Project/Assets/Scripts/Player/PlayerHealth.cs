@@ -8,6 +8,7 @@ public class PlayerHealth : HealthComponent
     public override void TakeDamage(float dmg)
     {
         base.TakeDamage(dmg);
+        UIManager.Instance.SetPlayerHealth(currentHealth, maxHealth);
         //TODO UI STUFF HERE
     }
     protected override void OnDie()
