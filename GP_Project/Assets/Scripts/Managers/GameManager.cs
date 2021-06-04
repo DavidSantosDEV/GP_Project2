@@ -45,6 +45,15 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void CloseGame()
+    {
+        if (Debug.isDebugBuild)
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+        Application.Quit();
+    }
+
     public void PlayerDied()
     {
         _playerController.OnDeath();

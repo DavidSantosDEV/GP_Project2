@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded)
         {
-            StopMovement();
+            //StopMovement();
             _playerMovement.Jump();
         }
     }

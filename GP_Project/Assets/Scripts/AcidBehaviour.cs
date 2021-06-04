@@ -11,12 +11,13 @@ public class AcidBehaviour : MonoBehaviour
 
     private Rigidbody2D mybody;
 
-    private AcidThrower myThrower;
-    
+    //private AcidThrower myThrower;
+    private PoolHandler myHandler;
+    private Animator myAnim;
     private void Awake()
     {
-        myThrower = FindObjectOfType<AcidThrower>(); //Lets assume there is only one
-
+        myAnim=GetComponent<Animator>();
+        myHandler = GetComponent<PoolHandler>();
         mybody = GetComponent<Rigidbody2D>();
         if (!mybody)
         {
@@ -27,6 +28,7 @@ public class AcidBehaviour : MonoBehaviour
 
     private void OnEnable()
     {
+        myAnim.SetTrigger("Grow");
         mybody.velocity = Vector2.up * speed;
     }
 
@@ -35,12 +37,20 @@ public class AcidBehaviour : MonoBehaviour
         mybody.velocity = Vector2.zero;
     }
 
+    private void OnBecameInvisible()
+    {
+        myHandler.DeActivate();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("TRIG");
         if (collision.CompareTag("Player"))
         {
             GameManager.Instance.Player.PlayerHealthComponent?.TakeDamage(damage);
+            myAnim.SetTrigger("Blow");
         }
-        PoolManager.Instance.DeSpawn(gameObject, myThrower.AcidPrefab);
+        
+        //myHandler.DeActivate();
     }
 }

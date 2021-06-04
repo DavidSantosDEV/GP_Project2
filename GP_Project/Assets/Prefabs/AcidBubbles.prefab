@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1197128276598967760}
   - component: {fileID: 1197128276598967756}
   - component: {fileID: 1197128276598967757}
-  m_Layer: 0
+  - component: {fileID: 8210875656076819563}
+  m_Layer: 9
   m_Name: AcidBubbles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1680330383
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7637393938412737178, guid: 8aac75403b9983245878c05a591a41e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -95,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 1197128276598967761}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: de21a127a2e811d40b59f3eda753998b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 46d256a7026a65e4f9afedf42a280d60, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -114,7 +115,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -134,3 +135,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 20
   speed: 2
+--- !u!114 &8210875656076819563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197128276598967761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb4caa654ea4ba48ae0ef17b8f3666c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

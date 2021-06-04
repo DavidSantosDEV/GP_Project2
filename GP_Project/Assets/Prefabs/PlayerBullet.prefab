@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2321280560338745872}
   - component: {fileID: 7132281331413981550}
   - component: {fileID: 4228447363695053351}
+  - component: {fileID: 8560196626699373509}
   m_Layer: 8
   m_Name: PlayerBullet
   m_TagString: Untagged
@@ -97,7 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099f094e72c292646ad634f458afdb22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myprefab: {fileID: 1549487926891691835}
   speed: 10
   body: {fileID: 7132281331413981550}
 --- !u!50 &7132281331413981550
@@ -137,3 +137,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &8560196626699373509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549487926891691835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb4caa654ea4ba48ae0ef17b8f3666c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

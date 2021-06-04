@@ -10,6 +10,13 @@ public class PlayerBullet : MonoBehaviour
     [SerializeField]
     private Rigidbody2D body;
 
+    private PoolHandler myHandler;
+
+    private void Awake()
+    {
+        myHandler = GetComponent<PoolHandler>();
+    }
+
     private void OnEnable()
     {
         if(GameManager.Instance)
@@ -29,8 +36,9 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        gameObject.SetActive(false);
-        PoolManager.Instance.DeSpawn(gameObject, GameManager.Instance.Player.PlayerWeaponComponent.BulletPrefab);
+        //Do other stuff here I guess
+
+        myHandler.DeActivate();
     }
 
     

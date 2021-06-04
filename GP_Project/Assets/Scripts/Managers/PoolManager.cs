@@ -57,17 +57,17 @@ public class PoolManager : MonoBehaviour
             //Queue<GameObject> queueObjects = new Queue<GameObject>();
             for(int i=0; i < obj.Ammount; i++)
             {
-                GameObject _object = Instantiate(obj.ObjectPrefab, transform);
-                _object.SetActive(false);
+                GameObject _object = CreateNew(obj.ObjectPrefab,transform.position,transform.rotation,transform,newQueue);
                 newQueue.Enqueue(_object);
             }
             queues.Add(obj.ObjectPrefab, newQueue);
         }
     }
 
-    private GameObject CreateNew(GameObject objectToInstantiate, Vector3 newPos, Quaternion newRotation, Transform newParent)
+    private GameObject CreateNew(GameObject objectToInstantiate, Vector3 newPos, Quaternion newRotation, Transform newParent, Queue<GameObject> queue)
     {
-        GameObject newGameObject= Instantiate(objectToInstantiate,newPos,newRotation,newParent);
+        GameObject newGameObject= Instantiate(objectToInstantiate,newPos,newRotation,newParent);  
+        newGameObject.GetComponent<PoolHandler>()?.SettupQueue(queue);
         newGameObject.SetActive(false);
         return newGameObject;
     }
@@ -82,7 +82,7 @@ public class PoolManager : MonoBehaviour
                 {
                     if (val)
                     {
-                        return CreateNew(prefab, transform.position, prefab.transform.rotation, transform);
+                        return CreateNew(prefab, transform.position, prefab.transform.rotation, transform,queue);
                     }
                     else
                     {
@@ -97,7 +97,7 @@ public class PoolManager : MonoBehaviour
             else
             {
                 GameObject newObject= queue.Dequeue();
-                if (newObject)
+                if (newObject!=null)
                 {
                     return newObject;
                 }
@@ -107,7 +107,7 @@ public class PoolManager : MonoBehaviour
                     {
                         if (val)
                         {
-                            return CreateNew(prefab, transform.position, prefab.transform.rotation, transform);
+                            return CreateNew(prefab, transform.position, prefab.transform.rotation, transform,queue);
                         }
                         else
                         {
@@ -126,23 +126,25 @@ public class PoolManager : MonoBehaviour
         {
             Queue<GameObject> newQueue = new Queue<GameObject>();
             queues.Add(prefab, newQueue);
-            return CreateNew(prefab, transform.position, prefab.transform.rotation, transform);
+            return CreateNew(prefab, transform.position, prefab.transform.rotation, transform,queue);
         }
     }
 
 
-    public void DeSpawn(GameObject objectToDespawn, GameObject prefab)
+    public void DeSpawn(GameObject objectToDespawn, Queue<GameObject> objectQueue)
     {
-        //Queue<GameObject> theq = queues.GroupBy(p => prefab).ToDictionary(g => g.Key, g => g.Select(pp => pp.Key)); 
-        
-        if ( queues.TryGetValue(prefab,out Queue<GameObject> newQueue))
+        if (objectQueue !=null)
         {
-            newQueue.Enqueue(objectToDespawn);
+            if (queues.ContainsValue(objectQueue))
+            {
+                objectQueue.Enqueue(objectToDespawn);
+            }
         }
         else
         {
             Destroy(objectToDespawn);
         }
+        //Queue<GameObject> theq = queues.GroupBy(p => prefab).ToDictionary(g => g.Key, g => g.Select(pp => pp.Key)); 
     }
 
 }

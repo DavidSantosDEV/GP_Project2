@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class PoolHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Queue<GameObject> myQueue = null;
+
+    public void SettupQueue(Queue<GameObject> poolQueue)
     {
-        
+        myQueue = poolQueue;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DeActivate()
     {
-        
+        if (gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+            PoolManager.Instance.DeSpawn(gameObject, myQueue);
+        }
     }
 }
