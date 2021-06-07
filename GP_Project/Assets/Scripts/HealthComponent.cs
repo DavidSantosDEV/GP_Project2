@@ -33,4 +33,10 @@ public class HealthComponent : MonoBehaviour
         isDead = true;
         Debug.Log(gameObject + " has died");
     }
+
+    public virtual void ResetComponent()
+    {
+        currentHealth = maxHealth;
+        isDead = false;
+    }
 }

@@ -31,7 +31,7 @@ public class AcidThrower : MonoBehaviour
             if (acidBubble)
             {
                 float x = Random.Range(-extentsCol, extentsCol);
-                Debug.Log(x);
+                //Debug.Log(x);
                 acidBubble.transform.position = new Vector2(x, transform.position.y); //The x is a random value between the edges of the collider |-------| so the acid spawns in between randomly
                 acidBubble.transform.rotation = transform.rotation;
                 acidBubble.SetActive(true);

@@ -33,7 +33,6 @@ public class HighlightButtonExtra : MonoBehaviour, ISelectHandler, IPointerEnter
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("dd");
         btn.image.sprite = highlightedSprite;
         //((IPointerEnterHandler)btn).OnPointerEnter(eventData);
     }

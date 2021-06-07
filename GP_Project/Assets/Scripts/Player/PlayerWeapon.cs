@@ -54,7 +54,7 @@ public class PlayerWeapon : MonoBehaviour
         
     }
 
-    public void DoAttackEffect()
+    public void DoAttackEffect() //called by animator
     {
         GameObject bullet = PoolManager.Instance.ReturnObject(bulletPrefab);
         if (bullet)
@@ -66,5 +66,12 @@ public class PlayerWeapon : MonoBehaviour
             UIManager.Instance.SetCharge(currentGauge, maxWeaponGauge);
         }
         Debug.Log("Attack");
+    }
+
+    public void ResetComponent()
+    {
+        currentGauge = maxWeaponGauge;
+        isAttacking = false;
+        UIManager.Instance.SetCharge(currentGauge, maxWeaponGauge);
     }
 }

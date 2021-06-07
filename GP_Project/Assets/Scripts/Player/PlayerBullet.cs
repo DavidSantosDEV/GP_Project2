@@ -19,7 +19,7 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnEnable()
     {
-        if(GameManager.Instance)
+        if(GameManager.Instance && GameManager.Instance.Player!=null)
         body.velocity = speed * (GameManager.Instance.Player.transform.right*-1);
     }
 

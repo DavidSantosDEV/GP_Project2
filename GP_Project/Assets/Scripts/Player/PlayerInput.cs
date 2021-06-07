@@ -41,6 +41,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Debug"",
+                    ""type"": ""Button"",
+                    ""id"": ""9e30a137-dcd8-41f2-8bd9-1c8ced068aa5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -153,6 +161,17 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a2d7658d-64e5-42e3-802c-d9c0c36644fb"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Debug"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -164,6 +183,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_Gameplay_Movement = m_Gameplay.FindAction("Movement", throwIfNotFound: true);
         m_Gameplay_Jump = m_Gameplay.FindAction("Jump", throwIfNotFound: true);
         m_Gameplay_Attack = m_Gameplay.FindAction("Attack", throwIfNotFound: true);
+        m_Gameplay_Debug = m_Gameplay.FindAction("Debug", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -216,6 +236,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_Gameplay_Movement;
     private readonly InputAction m_Gameplay_Jump;
     private readonly InputAction m_Gameplay_Attack;
+    private readonly InputAction m_Gameplay_Debug;
     public struct GameplayActions
     {
         private @PlayerInput m_Wrapper;
@@ -223,6 +244,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @Movement => m_Wrapper.m_Gameplay_Movement;
         public InputAction @Jump => m_Wrapper.m_Gameplay_Jump;
         public InputAction @Attack => m_Wrapper.m_Gameplay_Attack;
+        public InputAction @Debug => m_Wrapper.m_Gameplay_Debug;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -241,6 +263,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Attack.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAttack;
                 @Attack.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAttack;
                 @Attack.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAttack;
+                @Debug.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnDebug;
+                @Debug.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnDebug;
+                @Debug.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnDebug;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -254,6 +279,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Attack.started += instance.OnAttack;
                 @Attack.performed += instance.OnAttack;
                 @Attack.canceled += instance.OnAttack;
+                @Debug.started += instance.OnDebug;
+                @Debug.performed += instance.OnDebug;
+                @Debug.canceled += instance.OnDebug;
             }
         }
     }
@@ -263,5 +291,6 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
+        void OnDebug(InputAction.CallbackContext context);
     }
 }

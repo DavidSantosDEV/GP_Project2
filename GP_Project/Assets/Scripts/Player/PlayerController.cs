@@ -21,12 +21,19 @@ public class PlayerController : MonoBehaviour
 
     private PlayerMovement _playerMovement;
     private PlayerAnimation _playerAnimation;
+
     private PlayerWeapon _playerWeapon;
-    private HealthComponent _playerHealth;
+    private PlayerHealth _playerHealth;
 
 
-    public HealthComponent PlayerHealthComponent => _playerHealth;
+    public PlayerHealth PlayerHealthComponent => _playerHealth;
     public PlayerWeapon PlayerWeaponComponent => _playerWeapon;
+
+
+    private void DebugFunc(InputAction.CallbackContext cntx)
+    {
+        GameManager.Instance.OpenLevel(0);
+    }
 
     private void Awake()
     {
@@ -39,10 +46,12 @@ public class PlayerController : MonoBehaviour
 
         myInput.Gameplay.Jump.started += OnJump;
 
+        myInput.Gameplay.Debug.started += DebugFunc;
+
 
         myInput.Enable();
 
-        _playerHealth = GetComponent<HealthComponent>();
+        _playerHealth = GetComponent<PlayerHealth>();
         _playerMovement = GetComponent<PlayerMovement>();
         _playerAnimation = GetComponent<PlayerAnimation>();
         _playerWeapon = GetComponent<PlayerWeapon>();
@@ -104,11 +113,6 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void Start()
-    {
-        
-    }
-
     //private RaycastHit2D[] aux;
 
     private void CheckGrounded()
@@ -155,5 +159,14 @@ public class PlayerController : MonoBehaviour
     public void EnableMovement()
     {
         canMove = true;
+    }
+
+
+    public void ResetComponents()
+    {
+        myInput.Enable();
+        EnableMovement();
+        _playerHealth.ResetComponent();
+        _playerWeapon.ResetComponent();
     }
 }

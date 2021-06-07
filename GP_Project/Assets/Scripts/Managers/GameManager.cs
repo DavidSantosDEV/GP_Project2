@@ -10,6 +10,13 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PlayerController _playerController;
 
+    private Vector2 startingPoint=Vector2.zero; //level starting point
+
+    [SerializeField]
+    private int timeLevelReset=3;
+
+    private int currentLevel;
+
     public PlayerController Player
     {
         get => _playerController;
@@ -17,41 +24,77 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.sceneLoaded += OnSceneLoaded;
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject.transform.parent);
         }
         else
         {
             Destroy(gameObject);
         }
+    }
 
-
-
-        if (!_playerController)
+    private void OnSceneLoaded(Scene openScene,LoadSceneMode mode)
+    {
+        if (SceneManager.GetActiveScene().buildIndex != 0)
         {
-            _playerController = FindObjectOfType<PlayerController>(); //Assuming we only have one player on the scene
+            GameObject sp = GameObject.FindWithTag("StartingPoint");
+            if (sp)
+            {
+                Debug.Log(sp);
+                startingPoint = sp.transform.position; //Try and find I guess
+            }
+
+            if (!_playerController)
+            {
+                _playerController = FindObjectOfType<PlayerController>();
+                if (_playerController)
+                {
+                    DontDestroyOnLoad(_playerController.gameObject);
+                    UIManager.Instance.ShowGameplayStuff();
+                    if (startingPoint != Vector2.zero)
+                    {
+                        _playerController.transform.position = startingPoint;
+                    }
+                }
+                //Assuming we only have one player on the scene
+            }
+        }
+        else
+        {
+            UIManager.Instance.ShowMainMenuStuff();
+            if (_playerController)
+            {
+                Destroy(_playerController.gameObject);
+            }
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void OpenLevel(int index)
     {
-        
+        if (index != currentLevel)
+        {
+            startingPoint = Vector2.zero;
+        }
+        StartCoroutine(LoadScene(index));
     }
-
-    // Update is called once per frame
-    void Update()
+    private IEnumerator LoadScene(int indexLevel)
     {
-        
+        AsyncOperation async = SceneManager.LoadSceneAsync(indexLevel);
+        UIManager.Instance.ShowLoadingStuff();
+        UIManager.Instance.SetProgressLoading(0);
+        while (!async.isDone)
+        {
+            UIManager.Instance.SetProgressLoading(async.progress);
+            yield return null;
+        }
+        UIManager.Instance.SetProgressLoading(async.progress);
+        yield return null;
+        UIManager.Instance.HideLoadingStuff();
     }
-
-    public void OpenLevel()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    
 
     public void CloseGame()
     {
@@ -62,10 +105,36 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+
+    private void ReloadCurrentScene()
+    {
+        //use current level variable
+    }
+
     public void PlayerDied()
     {
         _playerController.OnDeath();
-        //Do game over UI thing.
+        UIManager.Instance.ShowDeathScreen();
+        StartCoroutine(DeathRoutine());
+    }
+
+    private void ResetLevel()
+    {
+        _playerController.gameObject.transform.position = startingPoint;
+        _playerController.ResetComponents();
+    }
+
+    private IEnumerator DeathRoutine()
+    {
+        UIManager.Instance.SetRestartText("Restarting in: " + timeLevelReset);
+        for(int i = timeLevelReset;  i>0; i--)
+        {
+            UIManager.Instance.SetRestartText("Restarting in: " + i);
+            yield return new WaitForSeconds(1);
+        }
+        UIManager.Instance.HideDeathScreen();
+        ResetLevel();
+        ReloadCurrentScene();
     }
 
 }

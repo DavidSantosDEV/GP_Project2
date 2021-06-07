@@ -9,12 +9,17 @@ public class PlayerHealth : HealthComponent
     {
         base.TakeDamage(dmg);
         UIManager.Instance.SetPlayerHealth(currentHealth, maxHealth);
-        //TODO UI STUFF HERE
     }
     protected override void OnDie()
     {
         base.OnDie();
         GameManager.Instance.PlayerDied();
+    }
+
+    public override void ResetComponent()
+    {
+        base.ResetComponent();
+        UIManager.Instance.SetPlayerHealth(currentHealth, maxHealth);
     }
 
 }

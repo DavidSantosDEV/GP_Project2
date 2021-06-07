@@ -44,13 +44,10 @@ public class AcidBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("TRIG");
         if (collision.CompareTag("Player"))
         {
             GameManager.Instance.Player.PlayerHealthComponent?.TakeDamage(damage);
             myAnim.SetTrigger("Blow");
         }
-        
-        //myHandler.DeActivate();
     }
 }
