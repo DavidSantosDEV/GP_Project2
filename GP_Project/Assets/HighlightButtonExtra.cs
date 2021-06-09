@@ -17,7 +17,6 @@ public class HighlightButtonExtra : MonoBehaviour, ISelectHandler, IPointerEnter
 
     private void Awake()
     {
-
         btn = GetComponent<Button>();
     }
     public void OnSelect(BaseEventData eventData)

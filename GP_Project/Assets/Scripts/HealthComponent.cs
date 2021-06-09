@@ -39,4 +39,9 @@ public class HealthComponent : MonoBehaviour
         currentHealth = maxHealth;
         isDead = false;
     }
+
+    public virtual void Heal(float ammount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + ammount, 0, maxHealth);
+    }
 }

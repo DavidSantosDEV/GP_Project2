@@ -46,7 +46,7 @@ public class AcidBehaviour : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameManager.Instance.Player.PlayerHealthComponent?.TakeDamage(damage);
+            GameManager.Instance?.Player.PlayerHealthComponent?.TakeDamage(damage);
             myAnim.SetTrigger("Blow");
         }
     }

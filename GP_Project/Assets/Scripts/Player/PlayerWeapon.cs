@@ -74,4 +74,10 @@ public class PlayerWeapon : MonoBehaviour
         isAttacking = false;
         UIManager.Instance.SetCharge(currentGauge, maxWeaponGauge);
     }
+
+    public void AddGauge(float val)
+    {
+        currentGauge = Mathf.Clamp(currentGauge + val, 0, maxWeaponGauge);
+        UIManager.Instance.SetCharge(currentGauge, maxWeaponGauge);
+    }
 }

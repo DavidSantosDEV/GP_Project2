@@ -22,4 +22,11 @@ public class PlayerHealth : HealthComponent
         UIManager.Instance.SetPlayerHealth(currentHealth, maxHealth);
     }
 
+    public override void Heal(float ammount)
+    {
+        base.Heal(ammount);
+        UIManager.Instance.SetPlayerHealth(currentHealth, maxHealth);
+    }
+
+    //private abstract void aa();
 }

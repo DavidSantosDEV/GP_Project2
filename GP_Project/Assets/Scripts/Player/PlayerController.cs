@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, BoxReferenced
 {
     [Header("Grounded Stuff")]
     [SerializeField]
@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private bool canMove = true;
 
+    private bool canShoot = true;
+
     private PlayerMovement _playerMovement;
     private PlayerAnimation _playerAnimation;
 
@@ -28,7 +30,6 @@ public class PlayerController : MonoBehaviour
 
     public PlayerHealth PlayerHealthComponent => _playerHealth;
     public PlayerWeapon PlayerWeaponComponent => _playerWeapon;
-
 
     private void DebugFunc(InputAction.CallbackContext cntx)
     {
@@ -55,6 +56,8 @@ public class PlayerController : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovement>();
         _playerAnimation = GetComponent<PlayerAnimation>();
         _playerWeapon = GetComponent<PlayerWeapon>();
+
+        //SettupParent();
     }
 
     private void OnMovement(InputAction.CallbackContext cntx)
@@ -93,7 +96,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnAttack(InputAction.CallbackContext cntx)
     {
-        if (isGrounded)
+        if (isGrounded && canShoot)
         {
             StopMovement();
             _playerWeapon.Attack();
@@ -168,5 +171,20 @@ public class PlayerController : MonoBehaviour
         EnableMovement();
         _playerHealth.ResetComponent();
         _playerWeapon.ResetComponent();
+    }
+
+    public void DeActivateBox()
+    {
+        canShoot = true;
+    }
+
+    public void ActivateBox()
+    {
+        canShoot = false;
+    }
+
+    public void AddReference()
+    {
+        FindObjectOfType<TheBox>().AddReference(this);
     }
 }
