@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
@@ -7,6 +5,10 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField]
     private Canvas mainCanvas;
+
+    [Header("Win screen")]
+    [SerializeField]
+    private GameObject parenWinScreen;
 
     [Header("MainMenu")]
     [SerializeField]
@@ -49,6 +51,16 @@ public class UIManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void ShowWinScreen()
+    {
+        parenWinScreen.SetActive(true);
+    }
+
+    public void HideWinScreen()
+    {
+        parenWinScreen.SetActive(false);
     }
 
     public void HideMainMenuStuff()

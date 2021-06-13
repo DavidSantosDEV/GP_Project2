@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-
 // Makes objects float up & down while gently spinning.
 public class ObjectFloater : MonoBehaviour
 {

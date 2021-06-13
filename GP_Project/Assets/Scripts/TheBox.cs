@@ -1,14 +1,21 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class TheBox : MonoBehaviour
 {
     [SerializeField]
+    private Sprite normalSprite;
+    [SerializeField]
+    private Sprite activatedSprite;
+
+    [SerializeField]
     private float effectTime=10;
 
+    private SpriteRenderer mySprite=null;
+
     private List<BoxReferenced> myReferences = new List<BoxReferenced>();
+
+    bool isActive = false;
 
     public void AddReference(BoxReferenced newVal)
     {
@@ -16,17 +23,21 @@ public class TheBox : MonoBehaviour
     }
 
 
-    bool isActive = false;
+    private void Awake()
+    {
+        mySprite = GetComponent<SpriteRenderer>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (isActive) return;
         if (collision.CompareTag("Player"))
         {
+            mySprite.sprite = activatedSprite;
             isActive = true;
             foreach (BoxReferenced myref in myReferences)
             {
-                myref.DeActivateBox();
+                myref.ActivateBox();
             }
             Invoke(nameof(ResetStuff), effectTime);
         }
@@ -36,9 +47,10 @@ public class TheBox : MonoBehaviour
     private void ResetStuff()
     {
         isActive = false;
+        mySprite.sprite = normalSprite;
         foreach(BoxReferenced myref in myReferences)
         {
-            myref.ActivateBox();
+            myref.DeActivateBox();
         }
     }
 }

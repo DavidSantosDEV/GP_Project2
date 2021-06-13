@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
@@ -13,7 +11,7 @@ public class PlayerAnimation : MonoBehaviour
 
     public void UpdateMovementAnimation(float horizontal /*,float vertical*/)
     {
-        myAnimator.SetFloat("Horizontal", horizontal);
+        myAnimator?.SetFloat("Horizontal", horizontal);
         //myAnimator.SetFloat("Vertical", vertical);
     }
 

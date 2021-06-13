@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,7 +15,7 @@ public class PoolHandler : MonoBehaviour
         if (gameObject.activeSelf)
         {
             gameObject.SetActive(false);
-            PoolManager.Instance.DeSpawn(gameObject, myQueue);
+            PoolManager.Instance?.DeSpawn(gameObject, myQueue);
         }
     }
 }

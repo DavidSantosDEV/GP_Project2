@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
 
@@ -33,6 +31,7 @@ public class PlayerController : MonoBehaviour, BoxReferenced
 
     private void DebugFunc(InputAction.CallbackContext cntx)
     {
+        if(Debug.isDebugBuild)
         GameManager.Instance.OpenLevel(0);
     }
 
@@ -60,29 +59,42 @@ public class PlayerController : MonoBehaviour, BoxReferenced
         //SettupParent();
     }
 
+    private void Start()
+    {
+        AddReference();
+    }
+
     private void OnMovement(InputAction.CallbackContext cntx)
     {
+        if (!this) return;
         if (canMove)
         {
             float val = cntx.ReadValue<float>();
             _playerMovement.UpdateHorizontalInput(val);
-            FlipCharacter(val);
+            if (CheckForFlip(-val))
+            {
+                Flip();
+            }
+            //FlipCharacter(val);
             _playerAnimation.UpdateMovementAnimation(Mathf.Abs(val));
         }
     }
 
     private void OnStopMovement(InputAction.CallbackContext cntx)
     {
-        if (canMove)
-        {
-            StopMovement();
+        if (this) {
+            if (canMove)
+            {
+                StopMovement();
+            }
         }
+
     }
 
     private void StopMovement()
     {
-        _playerMovement.UpdateHorizontalInput(0);
-        _playerAnimation.UpdateMovementAnimation(0);
+        _playerMovement?.UpdateHorizontalInput(0);
+        _playerAnimation?.UpdateMovementAnimation(0);
     }
 
     private void OnJump(InputAction.CallbackContext cntx)
@@ -103,17 +115,18 @@ public class PlayerController : MonoBehaviour, BoxReferenced
         }
     }
 
-    private void FlipCharacter(float val)
-    {
-        if (val > 0)
-        {
-            transform.localEulerAngles = new Vector2(transform.localEulerAngles.x, 180);
-        }
-        else
-        {
-            transform.localEulerAngles = new Vector2(transform.localEulerAngles.x, 0);
-        }
 
+    private bool CheckForFlip(float moveDirection)
+    {
+        return moveDirection > 0f && transform.right.x < 0f ||
+            moveDirection < 0f && transform.right.x > 0f;
+    }
+
+    private void Flip()
+    {
+        Vector3 targetRotation = transform.localEulerAngles;
+        targetRotation.y += 180f;
+        transform.localEulerAngles = targetRotation;
     }
 
     //private RaycastHit2D[] aux;
@@ -137,19 +150,23 @@ public class PlayerController : MonoBehaviour, BoxReferenced
     {
 
         Gizmos.color = !isGrounded ?  Color.red: Color.green;
-        Gizmos.DrawRay(Feet[0].position, Vector2.down*raySize);
-        Gizmos.DrawRay(Feet[1].position, Vector2.down * raySize);
+        foreach(Transform foot in Feet)
+        {
+            Gizmos.DrawRay(foot.position, Vector2.down * raySize);
+        }
+        //Gizmos.DrawRay(Feet[0].position, Vector2.down*raySize);
+        
         
     }
 
     private void FixedUpdate()
     {
+        //Debug.Log("working");
         CheckGrounded();
     }
 
     public void OnDeath()
     {
-        enabled = false;
         myInput.Disable();
     }
 
@@ -185,6 +202,11 @@ public class PlayerController : MonoBehaviour, BoxReferenced
 
     public void AddReference()
     {
-        FindObjectOfType<TheBox>().AddReference(this);
+        TheBox[] boxes = FindObjectsOfType<TheBox>();
+        foreach (TheBox box in boxes)
+        {
+            box.AddReference(this);
+        }
+        //FindObjectOfType<TheBox>().AddReference(this);
     }
 }

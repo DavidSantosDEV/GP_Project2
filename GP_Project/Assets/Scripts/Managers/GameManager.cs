@@ -1,10 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using System.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
     public static GameManager Instance { get; private set; } = null;
 
     [SerializeField]
@@ -14,8 +15,12 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private int timeLevelReset=3;
+    [SerializeField]
+    private int gameOverTime=4;
 
     private int currentLevel;
+
+    Portal[] Allportals;
 
     public PlayerController Player
     {
@@ -48,6 +53,10 @@ public class GameManager : MonoBehaviour
                 startingPoint = sp.transform.position; //Try and find I guess
             }
 
+            Allportals = FindObjectsOfType<Portal>();
+
+            Allportals = Allportals.Where(val => val.PortalIsActive != false).ToArray();
+
             if (!_playerController)
             {
                 _playerController = FindObjectOfType<PlayerController>();
@@ -62,15 +71,38 @@ public class GameManager : MonoBehaviour
                 }
                 //Assuming we only have one player on the scene
             }
+            else
+            {
+                if (startingPoint != Vector2.zero)
+                {
+                    _playerController.transform.position = startingPoint;
+                }else
+                {
+                    _playerController.transform.position = Vector2.zero;
+                }
+            }
         }
         else
         {
             UIManager.Instance.ShowMainMenuStuff();
+            UIManager.Instance.HideGameplayStuff();
             if (_playerController)
             {
                 Destroy(_playerController.gameObject);
             }
         }
+    }
+
+    public void OnPortalUsed()
+    {
+        foreach(Portal p in Allportals)
+        {
+            if (!p.PortalUsed)
+            {
+                return;
+            }
+        }
+        NextLevel();
     }
 
     public void OpenLevel(int index)
@@ -81,9 +113,34 @@ public class GameManager : MonoBehaviour
         }
         StartCoroutine(LoadScene(index));
     }
+
+    private void NextLevel()
+    {
+        int level = currentLevel + 1;
+        if (level > SceneManager.sceneCountInBuildSettings-1)
+        {
+            StartCoroutine(GameOverWin());
+        }
+        else
+        {
+            OpenLevel(level);
+        }
+    }
+
+    private IEnumerator GameOverWin()
+    {
+        Destroy(_playerController.gameObject);
+        _playerController = null;
+
+        UIManager.Instance.ShowWinScreen();
+        yield return new WaitForSeconds(gameOverTime);
+        OpenLevel(0);
+    }
+
     private IEnumerator LoadScene(int indexLevel)
     {
         AsyncOperation async = SceneManager.LoadSceneAsync(indexLevel);
+        UIManager.Instance.HideWinScreen();
         UIManager.Instance.ShowLoadingStuff();
         UIManager.Instance.SetProgressLoading(0);
         while (!async.isDone)
@@ -94,6 +151,7 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.SetProgressLoading(async.progress);
         yield return null;
         UIManager.Instance.HideLoadingStuff();
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
     }
 
     public void CloseGame()
@@ -120,6 +178,10 @@ public class GameManager : MonoBehaviour
 
     private void ResetLevel()
     {
+        foreach(Portal p in Allportals)
+        {
+            p.PortalUsed = false;
+        }
         _playerController.gameObject.transform.position = startingPoint;
         _playerController.ResetComponents();
     }
@@ -137,4 +199,9 @@ public class GameManager : MonoBehaviour
         ReloadCurrentScene();
     }
 
+
+   // private void Update()
+    //{
+      //  Debug.Log("working");
+    //}
 }

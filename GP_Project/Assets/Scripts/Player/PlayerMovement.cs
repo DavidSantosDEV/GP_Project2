@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float movementSpeed=2;
     [SerializeField]
-    private float jumpForce=20;
+    private float jumpForce = 20; //Horrible game
 
     private float horizontalInput;
 
@@ -30,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump()
     {
-        myBody.AddForce(new Vector2(0,jumpForce));
+        if (myBody.velocity.y < 0.1)
+        {
+            myBody.AddForce(new Vector2(0, jumpForce));
+        }
     }
 }

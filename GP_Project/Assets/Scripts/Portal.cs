@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -16,18 +14,28 @@ public class Portal : MonoBehaviour,BoxReferenced
 
 
     public Transform TeleportPoint => myTeleportPoint;
-    public bool isWorking => isActive;
+    public bool PortalIsActive => portalActive;
 
-    private bool isActive = true;
+    [SerializeField]
+    private bool portalActive = true;
+
+    private bool used=false;
+
+    public bool PortalUsed{ get => used; set => used=value; }
 
     private Color defaultColor;
     private SpriteRenderer mySpriteRenderer;
     private void Awake()
     {
-        SettupDestinations();
-
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         defaultColor = mySpriteRenderer.color;
+
+        if (portalActive == false)
+        {
+            DisablePortal();
+        }
+
+        SettupDestinations();
     }
 
     private void Start()
@@ -38,6 +46,10 @@ public class Portal : MonoBehaviour,BoxReferenced
     private void SettupDestinations()
     {
         myDestinations = myDestinations.Where(val => val != this).ToArray();
+        if (myDestinations.Length == 0)
+        {
+            DisablePortal();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,27 +60,35 @@ public class Portal : MonoBehaviour,BoxReferenced
         }
     }
 
-    private void Teleport(Transform victim)  //Remake when home
+    private void Teleport(Transform victim)  //Remake later i guess
     {
-        bool willtp = false;
-        int index=0;
-        while (!willtp)
+        if (portalActive)
         {
-            index = Random.Range(0, myDestinations.Length);
-            willtp = myDestinations[index].isWorking;
-        }
+            bool willtp = false;
+            int index = 0;
 
-        victim.position = myDestinations[index].TeleportPoint.position;
+            while (willtp==false)
+            {
+                index = Random.Range(0, myDestinations.Length);
+                willtp = myDestinations[index].PortalIsActive;
+            }
+
+            victim.position = myDestinations[index].TeleportPoint.position;
+            used = true;
+            GameManager.Instance.OnPortalUsed();
+        } 
     }
 
 
-    private void Deactivate()
+    private void DisablePortal()
     {
+        portalActive = false;
         mySpriteRenderer.color = colorDeactivated;
     }
 
-    private void Activate()
+    private void EnablePortal()
     {
+        portalActive = true;
         mySpriteRenderer.color = defaultColor;
     }
 
@@ -77,16 +97,21 @@ public class Portal : MonoBehaviour,BoxReferenced
 
     public void DeActivateBox()
     {
-        Deactivate();
+        EnablePortal();
+        
     }
 
     public void ActivateBox()
     {
-        Activate();
+        DisablePortal();
     }
 
     public void AddReference()
     {
-        FindObjectOfType<TheBox>().AddReference(this);
+        TheBox[] boxes = FindObjectsOfType<TheBox>();
+        foreach (TheBox box in boxes)
+        {
+            box.AddReference(this);
+        }
     }
 }
