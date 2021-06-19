@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour, BoxReferenced
         myInput.Enable();
 
         _playerHealth = GetComponent<PlayerHealth>();
+
         _playerMovement = GetComponent<PlayerMovement>();
         _playerAnimation = GetComponent<PlayerAnimation>();
         _playerWeapon = GetComponent<PlayerWeapon>();

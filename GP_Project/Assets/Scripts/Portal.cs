@@ -1,5 +1,6 @@
 using System.Linq;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Portal : MonoBehaviour,BoxReferenced
 {
@@ -59,21 +60,23 @@ public class Portal : MonoBehaviour,BoxReferenced
             Teleport(collision.transform);
         }
     }
-
-    private void Teleport(Transform victim)  //Remake later i guess
+    
+    private void Teleport(Transform victim)
     {
         if (portalActive)
         {
-            bool willtp = false;
-            int index = 0;
 
-            while (willtp==false)
+            List<Portal> toUse = new List<Portal>();
+            foreach (Portal _portal in myDestinations)
             {
-                index = Random.Range(0, myDestinations.Length);
-                willtp = myDestinations[index].PortalIsActive;
+                if (_portal.PortalIsActive)
+                {
+                    toUse.Add(_portal);
+                }
             }
 
-            victim.position = myDestinations[index].TeleportPoint.position;
+            victim.position = toUse[Random.Range(0, toUse.Count - 1)].TeleportPoint.position;
+
             used = true;
             GameManager.Instance.OnPortalUsed();
         } 

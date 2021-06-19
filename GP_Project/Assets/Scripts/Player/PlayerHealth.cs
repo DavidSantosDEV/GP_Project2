@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerHealth : HealthComponent
 {
-    
     public override void TakeDamage(float dmg)
     {
         base.TakeDamage(dmg);

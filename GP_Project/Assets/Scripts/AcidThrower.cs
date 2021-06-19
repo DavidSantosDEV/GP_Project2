@@ -17,7 +17,7 @@ public class AcidThrower : MonoBehaviour
         extentsCol = GetComponent<BoxCollider2D>().bounds.extents.x;
     }
 
-    private void Start()
+    private void OnEnable()
     {
         StartCoroutine(nameof(RandomBubbleSpawning));
     }
